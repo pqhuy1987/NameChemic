@@ -1,0 +1,1702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92B9C191E14770B0041D8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C181E14770B0041D8C1 /* main.m */; };
+		E92B9C1C1E14770B0041D8C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C1B1E14770B0041D8C1 /* AppDelegate.m */; };
+		E92B9C1F1E14770B0041D8C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C1E1E14770B0041D8C1 /* ViewController.m */; };
+		E92B9C251E14770B0041D8C1 /* NameReactionMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C231E14770B0041D8C1 /* NameReactionMaster.xcdatamodeld */; };
+		E92B9C271E14770B0041D8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C261E14770B0041D8C1 /* Assets.xcassets */; };
+		E92B9C2A1E14770B0041D8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C281E14770B0041D8C1 /* LaunchScreen.storyboard */; };
+		E92B9C351E14770B0041D8C1 /* NameReactionMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C341E14770B0041D8C1 /* NameReactionMasterTests.m */; };
+		E92B9C401E14770B0041D8C1 /* NameReactionMasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C3F1E14770B0041D8C1 /* NameReactionMasterUITests.m */; };
+		E92B9C571E14776E0041D8C1 /* NR_Acetoacetic-Ester Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C4F1E14776E0041D8C1 /* NR_Acetoacetic-Ester Condensation.png */; };
+		E92B9C581E14776E0041D8C1 /* NR_Acyloin Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C501E14776E0041D8C1 /* NR_Acyloin Condensation.png */; };
+		E92B9C591E14776E0041D8C1 /* NR_Aldol Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C511E14776E0041D8C1 /* NR_Aldol Reaction.png */; };
+		E92B9C5A1E14776E0041D8C1 /* NR_Appel Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C521E14776E0041D8C1 /* NR_Appel Reaction.png */; };
+		E92B9C5B1E14776E0041D8C1 /* NR_Arbuzov Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C531E14776E0041D8C1 /* NR_Arbuzov Reaction.png */; };
+		E92B9C5C1E14776E0041D8C1 /* NR_Arndt-Eistert Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C541E14776E0041D8C1 /* NR_Arndt-Eistert Synthesis.png */; };
+		E92B9C5D1E14776E0041D8C1 /* NR_Azide-Alkyne Cycloaddition.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C551E14776E0041D8C1 /* NR_Azide-Alkyne Cycloaddition.png */; };
+		E92B9C5E1E14776E0041D8C1 /* NR_Azo Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C561E14776E0041D8C1 /* NR_Azo Coupling.png */; };
+		E92B9C621E147C200041D8C1 /* ReactionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C611E147C200041D8C1 /* ReactionHandler.m */; };
+		E92B9C651E1483020041D8C1 /* NameReactionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C641E1483020041D8C1 /* NameReactionListVC.m */; };
+		E92B9C681E148CD20041D8C1 /* Reaction.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C671E148CD20041D8C1 /* Reaction.m */; };
+		E92B9C6B1E1494570041D8C1 /* AllReactions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C6A1E1494570041D8C1 /* AllReactions.m */; };
+		E92B9C6E1E14A4E70041D8C1 /* SingleReactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9C6D1E14A4E70041D8C1 /* SingleReactionVC.m */; };
+		E92B9C871E14BD540041D8C1 /* NR_Baeyer-Villiger Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C6F1E14BD540041D8C1 /* NR_Baeyer-Villiger Oxidation.png */; };
+		E92B9C881E14BD540041D8C1 /* NR_Baker-Venkataraman Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C701E14BD540041D8C1 /* NR_Baker-Venkataraman Rearrangement.png */; };
+		E92B9C891E14BD540041D8C1 /* NR_Balz-Schiemann Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C711E14BD540041D8C1 /* NR_Balz-Schiemann Reaction.png */; };
+		E92B9C8A1E14BD540041D8C1 /* NR_Bamford-Stevens Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C721E14BD540041D8C1 /* NR_Bamford-Stevens Reaction.png */; };
+		E92B9C8B1E14BD540041D8C1 /* NR_Bartoli Indole Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C731E14BD540041D8C1 /* NR_Bartoli Indole Synthesis.png */; };
+		E92B9C8C1E14BD540041D8C1 /* NR_Barton Decarboxylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C741E14BD540041D8C1 /* NR_Barton Decarboxylation.png */; };
+		E92B9C8D1E14BD540041D8C1 /* NR_Barton–McCombie Deoxygenation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C751E14BD540041D8C1 /* NR_Barton–McCombie Deoxygenation.png */; };
+		E92B9C8E1E14BD540041D8C1 /* NR_Baylis-Hillman Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C761E14BD540041D8C1 /* NR_Baylis-Hillman Reaction.png */; };
+		E92B9C8F1E14BD540041D8C1 /* NR_Beckmann Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C771E14BD540041D8C1 /* NR_Beckmann Reaction.png */; };
+		E92B9C901E14BD540041D8C1 /* NR_Benzilic Acid Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C781E14BD540041D8C1 /* NR_Benzilic Acid Rearrangement.png */; };
+		E92B9C911E14BD540041D8C1 /* NR_Benzoin Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C791E14BD540041D8C1 /* NR_Benzoin Condensation.png */; };
+		E92B9C921E14BD540041D8C1 /* NR_Bergman Cyclization.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7A1E14BD540041D8C1 /* NR_Bergman Cyclization.png */; };
+		E92B9C931E14BD540041D8C1 /* NR_Biginelli Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7B1E14BD540041D8C1 /* NR_Biginelli Reaction.png */; };
+		E92B9C941E14BD540041D8C1 /* NR_Birch Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7C1E14BD540041D8C1 /* NR_Birch Reduction.png */; };
+		E92B9C951E14BD540041D8C1 /* NR_Bischler-Napieralski Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7D1E14BD540041D8C1 /* NR_Bischler-Napieralski Reaction.png */; };
+		E92B9C961E14BD540041D8C1 /* NR_Blaise Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7E1E14BD540041D8C1 /* NR_Blaise Reaction.png */; };
+		E92B9C971E14BD540041D8C1 /* NR_Blanc Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C7F1E14BD540041D8C1 /* NR_Blanc Reaction.png */; };
+		E92B9C981E14BD540041D8C1 /* NR_Bohlmann-Rahtz Pyridine Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C801E14BD540041D8C1 /* NR_Bohlmann-Rahtz Pyridine Synthesis.png */; };
+		E92B9C991E14BD540041D8C1 /* NR_Bouveault-Blanc Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C811E14BD540041D8C1 /* NR_Bouveault-Blanc Reduction.png */; };
+		E92B9C9A1E14BD540041D8C1 /* NR_Brook Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C821E14BD540041D8C1 /* NR_Brook Rearrangement.png */; };
+		E92B9C9B1E14BD540041D8C1 /* NR_Brown Hydroboration.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C831E14BD540041D8C1 /* NR_Brown Hydroboration.png */; };
+		E92B9C9C1E14BD540041D8C1 /* NR_Bucherer-Bergs Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C841E14BD540041D8C1 /* NR_Bucherer-Bergs Reaction.png */; };
+		E92B9C9D1E14BD540041D8C1 /* NR_Buchner Ring Expansion.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C851E14BD540041D8C1 /* NR_Buchner Ring Expansion.png */; };
+		E92B9C9E1E14BD540041D8C1 /* NR_Buchwald-Hartwig Amination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C861E14BD540041D8C1 /* NR_Buchwald-Hartwig Amination.png */; };
+		E92B9CB11E14BD7A0041D8C1 /* NR_Cannizzaro Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9C9F1E14BD7A0041D8C1 /* NR_Cannizzaro Reaction.png */; };
+		E92B9CB21E14BD7A0041D8C1 /* NR_Carrol Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA01E14BD7A0041D8C1 /* NR_Carrol Rearrangement.png */; };
+		E92B9CB31E14BD7A0041D8C1 /* NR_Chichibabin Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA11E14BD7A0041D8C1 /* NR_Chichibabin Reaction.png */; };
+		E92B9CB41E14BD7A0041D8C1 /* NR_Ciamician-Dennstedt Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA21E14BD7A0041D8C1 /* NR_Ciamician-Dennstedt Rearrangement.png */; };
+		E92B9CB51E14BD7A0041D8C1 /* NR_Claisen Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA31E14BD7A0041D8C1 /* NR_Claisen Condensation.png */; };
+		E92B9CB61E14BD7A0041D8C1 /* NR_Claisen Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA41E14BD7A0041D8C1 /* NR_Claisen Rearrangement.png */; };
+		E92B9CB71E14BD7A0041D8C1 /* NR_Clemmensen Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA51E14BD7A0041D8C1 /* NR_Clemmensen Reduction.png */; };
+		E92B9CB81E14BD7A0041D8C1 /* NR_Conia-Ene Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA61E14BD7A0041D8C1 /* NR_Conia-Ene Reaction.png */; };
+		E92B9CB91E14BD7A0041D8C1 /* NR_Cope Elimination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA71E14BD7A0041D8C1 /* NR_Cope Elimination.png */; };
+		E92B9CBA1E14BD7A0041D8C1 /* NR_Cope Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA81E14BD7A0041D8C1 /* NR_Cope Rearrangement.png */; };
+		E92B9CBB1E14BD7A0041D8C1 /* NR_Corey-Bakshi-Shibata (CBS) Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CA91E14BD7A0041D8C1 /* NR_Corey-Bakshi-Shibata (CBS) Reduction.png */; };
+		E92B9CBC1E14BD7A0041D8C1 /* NR_Corey-Chaykovsky Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAA1E14BD7A0041D8C1 /* NR_Corey-Chaykovsky Reaction.png */; };
+		E92B9CBD1E14BD7A0041D8C1 /* NR_Corey-Fuchs Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAB1E14BD7A0041D8C1 /* NR_Corey-Fuchs Reaction.png */; };
+		E92B9CBE1E14BD7A0041D8C1 /* NR_Corey-Kim Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAC1E14BD7A0041D8C1 /* NR_Corey-Kim Oxidation.png */; };
+		E92B9CBF1E14BD7A0041D8C1 /* NR_Corey-Seebach Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAD1E14BD7A0041D8C1 /* NR_Corey-Seebach Reaction.png */; };
+		E92B9CC01E14BD7A0041D8C1 /* NR_Corey-Winter Olefin Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAE1E14BD7A0041D8C1 /* NR_Corey-Winter Olefin Synthesis.png */; };
+		E92B9CC11E14BD7A0041D8C1 /* NR_Cornforth Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CAF1E14BD7A0041D8C1 /* NR_Cornforth Rearrangement.png */; };
+		E92B9CC21E14BD7A0041D8C1 /* NR_Curtius Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CB01E14BD7A0041D8C1 /* NR_Curtius Rearrangement.png */; };
+		E92B9CCC1E14D7A10041D8C1 /* NR_Dakin Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC31E14D7A10041D8C1 /* NR_Dakin Reaction.png */; };
+		E92B9CCD1E14D7A10041D8C1 /* NR_Dakin-West Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC41E14D7A10041D8C1 /* NR_Dakin-West Reaction.png */; };
+		E92B9CCE1E14D7A10041D8C1 /* NR_Darzens Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC51E14D7A10041D8C1 /* NR_Darzens Reaction.png */; };
+		E92B9CCF1E14D7A10041D8C1 /* NR_Delépine Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC61E14D7A10041D8C1 /* NR_Delépine Reaction.png */; };
+		E92B9CD01E14D7A10041D8C1 /* NR_Demjanov Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC71E14D7A10041D8C1 /* NR_Demjanov Rearrangement.png */; };
+		E92B9CD11E14D7A10041D8C1 /* NR_Dess-Martin Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC81E14D7A10041D8C1 /* NR_Dess-Martin Oxidation.png */; };
+		E92B9CD21E14D7A10041D8C1 /* NR_Dieckmann Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CC91E14D7A10041D8C1 /* NR_Dieckmann Condensation.png */; };
+		E92B9CD31E14D7A10041D8C1 /* NR_Diels-Alder Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CCA1E14D7A10041D8C1 /* NR_Diels-Alder Reaction.png */; };
+		E92B9CD41E14D7A10041D8C1 /* NR_Dienone-Phenol Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CCB1E14D7A10041D8C1 /* NR_Dienone-Phenol Rearrangement.png */; };
+		E92B9CDA1E14D7B20041D8C1 /* NR_Eglinton Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CD51E14D7B20041D8C1 /* NR_Eglinton Reaction.png */; };
+		E92B9CDB1E14D7B20041D8C1 /* NR_Ene Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CD61E14D7B20041D8C1 /* NR_Ene Reaction.png */; };
+		E92B9CDC1E14D7B20041D8C1 /* NR_Enyne Metathesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CD71E14D7B20041D8C1 /* NR_Enyne Metathesis.png */; };
+		E92B9CDD1E14D7B20041D8C1 /* NR_Eschenmoser-Claisen Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CD81E14D7B20041D8C1 /* NR_Eschenmoser-Claisen Rearrangement.png */; };
+		E92B9CDE1E14D7B20041D8C1 /* NR_Eschweiler-Clarke Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CD91E14D7B20041D8C1 /* NR_Eschweiler-Clarke Reaction.png */; };
+		E92B9CEA1E14D7BA0041D8C1 /* NR_Favorskii Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CDF1E14D7BA0041D8C1 /* NR_Favorskii Reaction.png */; };
+		E92B9CEB1E14D7BA0041D8C1 /* NR_Finkelstein Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE01E14D7BA0041D8C1 /* NR_Finkelstein Reaction.png */; };
+		E92B9CEC1E14D7BA0041D8C1 /* NR_Fischer Esterification.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE11E14D7BA0041D8C1 /* NR_Fischer Esterification.png */; };
+		E92B9CED1E14D7BA0041D8C1 /* NR_Fischer Indole Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE21E14D7BA0041D8C1 /* NR_Fischer Indole Synthesis.png */; };
+		E92B9CEE1E14D7BA0041D8C1 /* NR_Fleming-Tamao Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE31E14D7BA0041D8C1 /* NR_Fleming-Tamao Oxidation.png */; };
+		E92B9CEF1E14D7BA0041D8C1 /* NR_Friedel-Crafts Acylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE41E14D7BA0041D8C1 /* NR_Friedel-Crafts Acylation.png */; };
+		E92B9CF01E14D7BA0041D8C1 /* NR_Friedel-Crafts Alkylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE51E14D7BA0041D8C1 /* NR_Friedel-Crafts Alkylation.png */; };
+		E92B9CF11E14D7BA0041D8C1 /* NR_Friedländer Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE61E14D7BA0041D8C1 /* NR_Friedländer Synthesis.png */; };
+		E92B9CF21E14D7BA0041D8C1 /* NR_Fries Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE71E14D7BA0041D8C1 /* NR_Fries Rearrangement.png */; };
+		E92B9CF31E14D7BA0041D8C1 /* NR_Fukuyama Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE81E14D7BA0041D8C1 /* NR_Fukuyama Coupling.png */; };
+		E92B9CF41E14D7BA0041D8C1 /* NR_Fukuyama Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CE91E14D7BA0041D8C1 /* NR_Fukuyama Reduction.png */; };
+		E92B9CFA1E14D7C30041D8C1 /* NR_Gabriel Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CF51E14D7C30041D8C1 /* NR_Gabriel Synthesis.png */; };
+		E92B9CFB1E14D7C30041D8C1 /* NR_Glaser Coupling (Hay Coupling).png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CF61E14D7C30041D8C1 /* NR_Glaser Coupling (Hay Coupling).png */; };
+		E92B9CFC1E14D7C30041D8C1 /* NR_Griesbaum Coozonolysis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CF71E14D7C30041D8C1 /* NR_Griesbaum Coozonolysis.png */; };
+		E92B9CFD1E14D7C30041D8C1 /* NR_Grignard Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CF81E14D7C30041D8C1 /* NR_Grignard Reaction.png */; };
+		E92B9CFE1E14D7C30041D8C1 /* NR_Grubbs Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CF91E14D7C30041D8C1 /* NR_Grubbs Reaction.png */; };
+		E92B9D0B1E14D7CB0041D8C1 /* NR_Haloform Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9CFF1E14D7CB0041D8C1 /* NR_Haloform Reaction.png */; };
+		E92B9D0C1E14D7CB0041D8C1 /* NR_Hantzsch Pyridine Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D001E14D7CB0041D8C1 /* NR_Hantzsch Pyridine Synthesis.png */; };
+		E92B9D0D1E14D7CB0041D8C1 /* NR_Heck Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D011E14D7CB0041D8C1 /* NR_Heck Reaction.png */; };
+		E92B9D0E1E14D7CB0041D8C1 /* NR_Hell-Volhard-Zelinsky Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D021E14D7CB0041D8C1 /* NR_Hell-Volhard-Zelinsky Reaction.png */; };
+		E92B9D0F1E14D7CB0041D8C1 /* NR_Henry Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D031E14D7CB0041D8C1 /* NR_Henry Reaction.png */; };
+		E92B9D101E14D7CB0041D8C1 /* NR_Hiyama Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D041E14D7CB0041D8C1 /* NR_Hiyama Coupling.png */; };
+		E92B9D111E14D7CB0041D8C1 /* NR_Hiyama–Denmark Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D051E14D7CB0041D8C1 /* NR_Hiyama–Denmark Coupling.png */; };
+		E92B9D121E14D7CB0041D8C1 /* NR_Hofmann Elimination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D061E14D7CB0041D8C1 /* NR_Hofmann Elimination.png */; };
+		E92B9D131E14D7CB0041D8C1 /* NR_Hofmann Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D071E14D7CB0041D8C1 /* NR_Hofmann Rearrangement.png */; };
+		E92B9D141E14D7CB0041D8C1 /* NR_Horner-Wadsworth-Emmons Olefination Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D081E14D7CB0041D8C1 /* NR_Horner-Wadsworth-Emmons Olefination Reaction.png */; };
+		E92B9D151E14D7CB0041D8C1 /* NR_Huisgen Cycloaddition.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D091E14D7CB0041D8C1 /* NR_Huisgen Cycloaddition.png */; };
+		E92B9D161E14D7CB0041D8C1 /* NR_Hunsdiecker Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D0A1E14D7CB0041D8C1 /* NR_Hunsdiecker Reaction.png */; };
+		E92B9D191E14D7D30041D8C1 /* NR_Ireland-Claisen Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D171E14D7D30041D8C1 /* NR_Ireland-Claisen Rearrangement.png */; };
+		E92B9D1A1E14D7D30041D8C1 /* NR_Ivanov Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D181E14D7D30041D8C1 /* NR_Ivanov Reaction.png */; };
+		E92B9D211E14D7D90041D8C1 /* NR_Jacobsen Epoxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D1B1E14D7D90041D8C1 /* NR_Jacobsen Epoxidation.png */; };
+		E92B9D221E14D7D90041D8C1 /* NR_Jocic Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D1C1E14D7D90041D8C1 /* NR_Jocic Reaction.png */; };
+		E92B9D231E14D7D90041D8C1 /* NR_Johnson-Claisen Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D1D1E14D7D90041D8C1 /* NR_Johnson-Claisen Rearrangement.png */; };
+		E92B9D241E14D7D90041D8C1 /* NR_Jones Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D1E1E14D7D90041D8C1 /* NR_Jones Oxidation.png */; };
+		E92B9D251E14D7D90041D8C1 /* NR_Julia Olefination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D1F1E14D7D90041D8C1 /* NR_Julia Olefination.png */; };
+		E92B9D261E14D7D90041D8C1 /* NR_Julia-Kocienski Olefination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D201E14D7D90041D8C1 /* NR_Julia-Kocienski Olefination.png */; };
+		E92B9D2F1E14D7E10041D8C1 /* NR_Kabachnik-Fields Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D271E14D7E10041D8C1 /* NR_Kabachnik-Fields Reaction.png */; };
+		E92B9D301E14D7E10041D8C1 /* NR_Knoevenagel Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D281E14D7E10041D8C1 /* NR_Knoevenagel Condensation.png */; };
+		E92B9D311E14D7E10041D8C1 /* NR_Knorr Pyrazole Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D291E14D7E10041D8C1 /* NR_Knorr Pyrazole Synthesis.png */; };
+		E92B9D321E14D7E10041D8C1 /* NR_Kochi Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D2A1E14D7E10041D8C1 /* NR_Kochi Reaction.png */; };
+		E92B9D331E14D7E10041D8C1 /* NR_Kolbe Nitrile Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D2B1E14D7E10041D8C1 /* NR_Kolbe Nitrile Synthesis.png */; };
+		E92B9D341E14D7E10041D8C1 /* NR_Kolbe-Schmitt Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D2C1E14D7E10041D8C1 /* NR_Kolbe-Schmitt Reaction.png */; };
+		E92B9D351E14D7E10041D8C1 /* NR_Kulinkovich Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D2D1E14D7E10041D8C1 /* NR_Kulinkovich Reaction.png */; };
+		E92B9D361E14D7E10041D8C1 /* NR_Kumada Cross-Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D2E1E14D7E10041D8C1 /* NR_Kumada Cross-Coupling.png */; };
+		E92B9D3C1E14D7E90041D8C1 /* NR_Lawesson's Reagent.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D371E14D7E90041D8C1 /* NR_Lawesson's Reagent.png */; };
+		E92B9D3E1E14D7E90041D8C1 /* NR_Leuckart Thiophenol Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D391E14D7E90041D8C1 /* NR_Leuckart Thiophenol Reaction.png */; };
+		E92B9D3F1E14D7E90041D8C1 /* NR_Lossen Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D3A1E14D7E90041D8C1 /* NR_Lossen Rearrangement.png */; };
+		E92B9D4D1E14D7F10041D8C1 /* NR_Meisenheimer (1, 2) Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D411E14D7F10041D8C1 /* NR_Meisenheimer (1, 2) Rearrangement.png */; };
+		E92B9D4E1E14D7F10041D8C1 /* NR_Meisenheimer (2, 3) Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D421E14D7F10041D8C1 /* NR_Meisenheimer (2, 3) Rearrangement.png */; };
+		E92B9D4F1E14D7F10041D8C1 /* NR_Madelung Indole Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D431E14D7F10041D8C1 /* NR_Madelung Indole Synthesis.png */; };
+		E92B9D501E14D7F10041D8C1 /* NR_Mannich Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D441E14D7F10041D8C1 /* NR_Mannich Reaction.png */; };
+		E92B9D511E14D7F10041D8C1 /* NR_McMurry Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D451E14D7F10041D8C1 /* NR_McMurry Reaction.png */; };
+		E92B9D521E14D7F10041D8C1 /* NR_Meerwein–Ponndorf–Verley Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D461E14D7F10041D8C1 /* NR_Meerwein–Ponndorf–Verley Reduction.png */; };
+		E92B9D531E14D7F10041D8C1 /* NR_Meyer–Schuster Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D471E14D7F10041D8C1 /* NR_Meyer–Schuster Rearrangement.png */; };
+		E92B9D541E14D7F10041D8C1 /* NR_Michael Addition.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D481E14D7F10041D8C1 /* NR_Michael Addition.png */; };
+		E92B9D551E14D7F10041D8C1 /* NR_Mislow–Evans Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D491E14D7F10041D8C1 /* NR_Mislow–Evans Rearrangement.png */; };
+		E92B9D561E14D7F10041D8C1 /* NR_Mitsunobu Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D4A1E14D7F10041D8C1 /* NR_Mitsunobu Reaction.png */; };
+		E92B9D571E14D7F10041D8C1 /* NR_Mukaiyama Aldol Addition.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D4B1E14D7F10041D8C1 /* NR_Mukaiyama Aldol Addition.png */; };
+		E92B9D581E14D7F10041D8C1 /* NR_Myers-Saito Cyclization.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D4C1E14D7F10041D8C1 /* NR_Myers-Saito Cyclization.png */; };
+		E92B9D5E1E14D7FD0041D8C1 /* NR_Nazarov Cyclization.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D591E14D7FD0041D8C1 /* NR_Nazarov Cyclization.png */; };
+		E92B9D5F1E14D7FD0041D8C1 /* NR_Nef Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D5A1E14D7FD0041D8C1 /* NR_Nef Reaction.png */; };
+		E92B9D601E14D7FD0041D8C1 /* NR_Negishi Cross-Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D5B1E14D7FD0041D8C1 /* NR_Negishi Cross-Coupling.png */; };
+		E92B9D611E14D7FD0041D8C1 /* NR_Newman-Kwart Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D5C1E14D7FD0041D8C1 /* NR_Newman-Kwart Rearrangement.png */; };
+		E92B9D621E14D7FD0041D8C1 /* NR_Nozaki-Hiyama-Kishi Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D5D1E14D7FD0041D8C1 /* NR_Nozaki-Hiyama-Kishi Reaction.png */; };
+		E92B9D661E14D80B0041D8C1 /* NR_Oppenauer Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D631E14D80B0041D8C1 /* NR_Oppenauer Oxidation.png */; };
+		E92B9D671E14D80B0041D8C1 /* NR_Overman Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D641E14D80B0041D8C1 /* NR_Overman Rearrangement.png */; };
+		E92B9D681E14D80B0041D8C1 /* NR_Oxy-Cope Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D651E14D80B0041D8C1 /* NR_Oxy-Cope Rearrangement.png */; };
+		E92B9D7E1E14D8170041D8C1 /* NR_Paal–Knorr Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D691E14D8170041D8C1 /* NR_Paal–Knorr Synthesis.png */; };
+		E92B9D7F1E14D8170041D8C1 /* NR_Passerini Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6A1E14D8170041D8C1 /* NR_Passerini Reaction.png */; };
+		E92B9D801E14D8170041D8C1 /* NR_Paternò–Büchi Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6B1E14D8170041D8C1 /* NR_Paternò–Büchi Reaction.png */; };
+		E92B9D811E14D8170041D8C1 /* NR_Pauson-Khand Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6C1E14D8170041D8C1 /* NR_Pauson-Khand Reaction.png */; };
+		E92B9D821E14D8170041D8C1 /* NR_Payne Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6D1E14D8170041D8C1 /* NR_Payne Rearrangement.png */; };
+		E92B9D831E14D8170041D8C1 /* NR_Pechmann Condensation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6E1E14D8170041D8C1 /* NR_Pechmann Condensation.png */; };
+		E92B9D841E14D8170041D8C1 /* NR_Perkin Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D6F1E14D8170041D8C1 /* NR_Perkin Reaction.png */; };
+		E92B9D851E14D8170041D8C1 /* NR_Petasis Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D701E14D8170041D8C1 /* NR_Petasis Reaction.png */; };
+		E92B9D861E14D8170041D8C1 /* NR_Petasis-Ferrier Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D711E14D8170041D8C1 /* NR_Petasis-Ferrier Rearrangement.png */; };
+		E92B9D871E14D8170041D8C1 /* NR_Peterson Olefination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D721E14D8170041D8C1 /* NR_Peterson Olefination.png */; };
+		E92B9D891E14D8170041D8C1 /* NR_Pictet-Spengler Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D741E14D8170041D8C1 /* NR_Pictet-Spengler Reaction.png */; };
+		E92B9D8A1E14D8170041D8C1 /* NR_Pinacol Coupling Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D751E14D8170041D8C1 /* NR_Pinacol Coupling Reaction.png */; };
+		E92B9D8B1E14D8170041D8C1 /* NR_Pinacol Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D761E14D8170041D8C1 /* NR_Pinacol Rearrangement.png */; };
+		E92B9D8C1E14D8170041D8C1 /* NR_Pinner Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D771E14D8170041D8C1 /* NR_Pinner Reaction.png */; };
+		E92B9D8D1E14D8170041D8C1 /* NR_Pinnick Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D781E14D8170041D8C1 /* NR_Pinnick Oxidation.png */; };
+		E92B9D8E1E14D8170041D8C1 /* NR_Prévost Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D791E14D8170041D8C1 /* NR_Prévost Reaction.png */; };
+		E92B9D8F1E14D8170041D8C1 /* NR_Prilezhaev Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D7A1E14D8170041D8C1 /* NR_Prilezhaev Reaction.png */; };
+		E92B9D901E14D8170041D8C1 /* NR_Prins Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D7B1E14D8170041D8C1 /* NR_Prins Reaction.png */; };
+		E92B9D911E14D8170041D8C1 /* NR_Pschorr Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D7C1E14D8170041D8C1 /* NR_Pschorr Reaction.png */; };
+		E92B9D921E14D8170041D8C1 /* NR_Pummerer Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D7D1E14D8170041D8C1 /* NR_Pummerer Rearrangement.png */; };
+		E92B9D941E14D81F0041D8C1 /* NR_Quasi-Favorskii Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D931E14D81F0041D8C1 /* NR_Quasi-Favorskii Rearrangement.png */; };
+		E92B9D9D1E14D8260041D8C1 /* NR_Ramberg–Bäcklund Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D951E14D8260041D8C1 /* NR_Ramberg–Bäcklund Reaction.png */; };
+		E92B9D9E1E14D8260041D8C1 /* NR_Reformatsky Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D961E14D8260041D8C1 /* NR_Reformatsky Reaction.png */; };
+		E92B9D9F1E14D8260041D8C1 /* NR_Reimer-Tiemann Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D971E14D8260041D8C1 /* NR_Reimer-Tiemann Reaction.png */; };
+		E92B9DA01E14D8260041D8C1 /* NR_Ritter Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D981E14D8260041D8C1 /* NR_Ritter Reaction.png */; };
+		E92B9DA11E14D8260041D8C1 /* NR_Robinson Annulation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D991E14D8260041D8C1 /* NR_Robinson Annulation.png */; };
+		E92B9DA21E14D8260041D8C1 /* NR_Rosenmund Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D9A1E14D8260041D8C1 /* NR_Rosenmund Reduction.png */; };
+		E92B9DA31E14D8260041D8C1 /* NR_Rosenmund-von Braun Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D9B1E14D8260041D8C1 /* NR_Rosenmund-von Braun Reaction.png */; };
+		E92B9DA41E14D8260041D8C1 /* NR_Rubottom Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9D9C1E14D8260041D8C1 /* NR_Rubottom Oxidation.png */; };
+		E92B9DBF1E14D8610041D8C1 /* NR_Saegusa Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DA71E14D8610041D8C1 /* NR_Saegusa Oxidation.png */; };
+		E92B9DC01E14D8610041D8C1 /* NR_Sakurai Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DA81E14D8610041D8C1 /* NR_Sakurai Reaction.png */; };
+		E92B9DC11E14D8610041D8C1 /* NR_Sandmeyer Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DA91E14D8610041D8C1 /* NR_Sandmeyer Reaction.png */; };
+		E92B9DC21E14D8610041D8C1 /* NR_Schmidt Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAA1E14D8610041D8C1 /* NR_Schmidt Reaction.png */; };
+		E92B9DC31E14D8610041D8C1 /* NR_Schotten-Baumann Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAB1E14D8610041D8C1 /* NR_Schotten-Baumann Reaction.png */; };
+		E92B9DC41E14D8610041D8C1 /* NR_Seyferth-Gilbert Homologation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAC1E14D8610041D8C1 /* NR_Seyferth-Gilbert Homologation.png */; };
+		E92B9DC51E14D8610041D8C1 /* NR_Shapiro Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAD1E14D8610041D8C1 /* NR_Shapiro Reaction.png */; };
+		E92B9DC61E14D8610041D8C1 /* NR_Sharpless Dihydroxylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAE1E14D8610041D8C1 /* NR_Sharpless Dihydroxylation.png */; };
+		E92B9DC71E14D8610041D8C1 /* NR_Sharpless Epoxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DAF1E14D8610041D8C1 /* NR_Sharpless Epoxidation.png */; };
+		E92B9DC81E14D8610041D8C1 /* NR_Sharpless Oxyamination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB01E14D8610041D8C1 /* NR_Sharpless Oxyamination.png */; };
+		E92B9DC91E14D8610041D8C1 /* NR_Shi Epoxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB11E14D8610041D8C1 /* NR_Shi Epoxidation.png */; };
+		E92B9DCA1E14D8610041D8C1 /* NR_Simmons-Smith Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB21E14D8610041D8C1 /* NR_Simmons-Smith Reaction.png */; };
+		E92B9DCB1E14D8610041D8C1 /* NR_Smiles Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB31E14D8610041D8C1 /* NR_Smiles Rearrangement.png */; };
+		E92B9DCC1E14D8610041D8C1 /* NR_Sommelet–Hauser Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB41E14D8610041D8C1 /* NR_Sommelet–Hauser Rearrangement.png */; };
+		E92B9DCD1E14D8610041D8C1 /* NR_Sonogashira Cross-Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB51E14D8610041D8C1 /* NR_Sonogashira Cross-Coupling.png */; };
+		E92B9DCE1E14D8610041D8C1 /* NR_Staudinger Cycloaddition.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB61E14D8610041D8C1 /* NR_Staudinger Cycloaddition.png */; };
+		E92B9DCF1E14D8610041D8C1 /* NR_Staudinger Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB71E14D8610041D8C1 /* NR_Staudinger Reaction.png */; };
+		E92B9DD01E14D8610041D8C1 /* NR_Steglich Esterification.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB81E14D8610041D8C1 /* NR_Steglich Esterification.png */; };
+		E92B9DD11E14D8610041D8C1 /* NR_Stetter Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DB91E14D8610041D8C1 /* NR_Stetter Reaction.png */; };
+		E92B9DD21E14D8610041D8C1 /* NR_Stevens Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DBA1E14D8610041D8C1 /* NR_Stevens Rearrangement.png */; };
+		E92B9DD31E14D8610041D8C1 /* NR_Stille Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DBB1E14D8610041D8C1 /* NR_Stille Coupling.png */; };
+		E92B9DD41E14D8610041D8C1 /* NR_Strecker Amino Acid Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DBC1E14D8610041D8C1 /* NR_Strecker Amino Acid Synthesis.png */; };
+		E92B9DD51E14D8610041D8C1 /* NR_Suzuki Cross-Coupling.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DBD1E14D8610041D8C1 /* NR_Suzuki Cross-Coupling.png */; };
+		E92B9DD61E14D8610041D8C1 /* NR_Swern Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DBE1E14D8610041D8C1 /* NR_Swern Oxidation.png */; };
+		E92B9DDB1E14D86A0041D8C1 /* NR_Tebbe Olefination.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DD71E14D8690041D8C1 /* NR_Tebbe Olefination.png */; };
+		E92B9DDC1E14D86A0041D8C1 /* NR_Tiffeneau–Demjanov Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DD81E14D8690041D8C1 /* NR_Tiffeneau–Demjanov Rearrangement.png */; };
+		E92B9DDD1E14D86A0041D8C1 /* NR_Tishchenko Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DD91E14D8690041D8C1 /* NR_Tishchenko Reaction.png */; };
+		E92B9DDE1E14D86A0041D8C1 /* NR_Tsuji–Trost Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DDA1E14D86A0041D8C1 /* NR_Tsuji–Trost Reaction.png */; };
+		E92B9DE21E14D8710041D8C1 /* NR_Ugi Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DDF1E14D8710041D8C1 /* NR_Ugi Reaction.png */; };
+		E92B9DE31E14D8710041D8C1 /* NR_Ullmann Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DE01E14D8710041D8C1 /* NR_Ullmann Reaction.png */; };
+		E92B9DE41E14D8710041D8C1 /* NR_Upjohn Dihydroxylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DE11E14D8710041D8C1 /* NR_Upjohn Dihydroxylation.png */; };
+		E92B9DE81E14D8780041D8C1 /* NR_Van Leusen Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DE51E14D8780041D8C1 /* NR_Van Leusen Reaction.png */; };
+		E92B9DE91E14D8780041D8C1 /* NR_Vilsmeier-Haack Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DE61E14D8780041D8C1 /* NR_Vilsmeier-Haack Reaction.png */; };
+		E92B9DEA1E14D8780041D8C1 /* NR_Vinylcyclopropane-Cyclopentene Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DE71E14D8780041D8C1 /* NR_Vinylcyclopropane-Cyclopentene Rearrangement.png */; };
+		E92B9DFC1E14D8800041D8C1 /* NR_Wittig (1, 2) Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DEC1E14D8800041D8C1 /* NR_Wittig (1, 2) Rearrangement.png */; };
+		E92B9DFD1E14D8800041D8C1 /* NR_Wittig (2, 3) Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DED1E14D8800041D8C1 /* NR_Wittig (2, 3) Rearrangement.png */; };
+		E92B9DFE1E14D8800041D8C1 /* NR_Wacker-Tsuji Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DEE1E14D8800041D8C1 /* NR_Wacker-Tsuji Oxidation.png */; };
+		E92B9DFF1E14D8800041D8C1 /* NR_Wagner-Meerwein Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DEF1E14D8800041D8C1 /* NR_Wagner-Meerwein Rearrangement.png */; };
+		E92B9E001E14D8800041D8C1 /* NR_Weinreb Ketone Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF01E14D8800041D8C1 /* NR_Weinreb Ketone Synthesis.png */; };
+		E92B9E011E14D8800041D8C1 /* NR_Wenker Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF11E14D8800041D8C1 /* NR_Wenker Synthesis.png */; };
+		E92B9E021E14D8800041D8C1 /* NR_Williamson Ether Synthesis.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF21E14D8800041D8C1 /* NR_Williamson Ether Synthesis.png */; };
+		E92B9E031E14D8800041D8C1 /* NR_Wittig Olefination Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF31E14D8800041D8C1 /* NR_Wittig Olefination Reaction.png */; };
+		E92B9E041E14D8800041D8C1 /* NR_Wohl-Ziegler Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF41E14D8800041D8C1 /* NR_Wohl-Ziegler Reaction.png */; };
+		E92B9E051E14D8800041D8C1 /* NR_Wolff Rearrangement.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF51E14D8800041D8C1 /* NR_Wolff Rearrangement.png */; };
+		E92B9E061E14D8800041D8C1 /* NR_Wolff-Kishner Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF61E14D8800041D8C1 /* NR_Wolff-Kishner Reduction.png */; };
+		E92B9E071E14D8800041D8C1 /* NR_Wolff-Kishner-Huang Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF71E14D8800041D8C1 /* NR_Wolff-Kishner-Huang Reduction.png */; };
+		E92B9E081E14D8800041D8C1 /* NR_Woodward cis-Hydroxylation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF81E14D8800041D8C1 /* NR_Woodward cis-Hydroxylation.png */; };
+		E92B9E091E14D8800041D8C1 /* NR_Wurtz Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DF91E14D8800041D8C1 /* NR_Wurtz Reaction.png */; };
+		E92B9E0A1E14D8800041D8C1 /* NR_Wurtz-Fittig Reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9DFA1E14D8800041D8C1 /* NR_Wurtz-Fittig Reaction.png */; };
+		E92B9E0C1E14D8900041D8C1 /* NR_Yamaguchi Esterification.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9E0B1E14D8900041D8C1 /* NR_Yamaguchi Esterification.png */; };
+		E92B9E281E14DD5D0041D8C1 /* ReactionTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9E271E14DD5D0041D8C1 /* ReactionTypes.m */; };
+		E92B9E2A1E14E2450041D8C1 /* NR_Lei-Griffith Oxidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E92B9E291E14E2450041D8C1 /* NR_Lei-Griffith Oxidation.png */; };
+		E92B9E2D1E14EA470041D8C1 /* NameReactionTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9E2C1E14EA470041D8C1 /* NameReactionTypeVC.m */; };
+		E92B9E301E14F7590041D8C1 /* ReactionOfOneTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B9E2F1E14F7590041D8C1 /* ReactionOfOneTypeVC.m */; };
+		E9839EB71E1833E9005C3133 /* launchImg.png in Resources */ = {isa = PBXBuildFile; fileRef = E9839EB61E1833E9005C3133 /* launchImg.png */; };
+		E9EA9EB71E15FF0400BD77E3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EA9EB61E15FF0400BD77E3 /* TestViewController.m */; };
+		E9EA9EBA1E15FFB500BD77E3 /* RandomReactionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EA9EB91E15FFB500BD77E3 /* RandomReactionGenerator.m */; };
+		E9EA9EBC1E16242A00BD77E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EA9EBB1E16242A00BD77E3 /* Main.storyboard */; };
+		E9F509B31E159ED700E07F0E /* NR_Luche Reduction.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F509B21E159ED700E07F0E /* NR_Luche Reduction.png */; };
+		E9F509B91E15C1A000E07F0E /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9F509B81E15C1A000E07F0E /* background.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92B9C311E14770B0041D8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92B9C0C1E14770B0041D8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92B9C131E14770B0041D8C1;
+			remoteInfo = NameReactionMaster;
+		};
+		E92B9C3C1E14770B0041D8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92B9C0C1E14770B0041D8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92B9C131E14770B0041D8C1;
+			remoteInfo = NameReactionMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E92B9C141E14770B0041D8C1 /* NameReactionMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameReactionMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92B9C181E14770B0041D8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E92B9C1A1E14770B0041D8C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E92B9C1B1E14770B0041D8C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E92B9C1D1E14770B0041D8C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E92B9C1E1E14770B0041D8C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E92B9C241E14770B0041D8C1 /* NameReactionMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NameReactionMaster.xcdatamodel; sourceTree = "<group>"; };
+		E92B9C261E14770B0041D8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92B9C291E14770B0041D8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E92B9C2B1E14770B0041D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92B9C301E14770B0041D8C1 /* NameReactionMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameReactionMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92B9C341E14770B0041D8C1 /* NameReactionMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameReactionMasterTests.m; sourceTree = "<group>"; };
+		E92B9C361E14770B0041D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92B9C3B1E14770B0041D8C1 /* NameReactionMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameReactionMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92B9C3F1E14770B0041D8C1 /* NameReactionMasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameReactionMasterUITests.m; sourceTree = "<group>"; };
+		E92B9C411E14770B0041D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92B9C4F1E14776E0041D8C1 /* NR_Acetoacetic-Ester Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Acetoacetic-Ester Condensation.png"; sourceTree = "<group>"; };
+		E92B9C501E14776E0041D8C1 /* NR_Acyloin Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Acyloin Condensation.png"; sourceTree = "<group>"; };
+		E92B9C511E14776E0041D8C1 /* NR_Aldol Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Aldol Reaction.png"; sourceTree = "<group>"; };
+		E92B9C521E14776E0041D8C1 /* NR_Appel Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Appel Reaction.png"; sourceTree = "<group>"; };
+		E92B9C531E14776E0041D8C1 /* NR_Arbuzov Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Arbuzov Reaction.png"; sourceTree = "<group>"; };
+		E92B9C541E14776E0041D8C1 /* NR_Arndt-Eistert Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Arndt-Eistert Synthesis.png"; sourceTree = "<group>"; };
+		E92B9C551E14776E0041D8C1 /* NR_Azide-Alkyne Cycloaddition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Azide-Alkyne Cycloaddition.png"; sourceTree = "<group>"; };
+		E92B9C561E14776E0041D8C1 /* NR_Azo Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Azo Coupling.png"; sourceTree = "<group>"; };
+		E92B9C601E147C200041D8C1 /* ReactionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionHandler.h; sourceTree = "<group>"; };
+		E92B9C611E147C200041D8C1 /* ReactionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionHandler.m; sourceTree = "<group>"; };
+		E92B9C631E1483020041D8C1 /* NameReactionListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameReactionListVC.h; sourceTree = "<group>"; };
+		E92B9C641E1483020041D8C1 /* NameReactionListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameReactionListVC.m; sourceTree = "<group>"; };
+		E92B9C661E148CD20041D8C1 /* Reaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reaction.h; sourceTree = "<group>"; };
+		E92B9C671E148CD20041D8C1 /* Reaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reaction.m; sourceTree = "<group>"; };
+		E92B9C691E1494570041D8C1 /* AllReactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllReactions.h; sourceTree = "<group>"; };
+		E92B9C6A1E1494570041D8C1 /* AllReactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllReactions.m; sourceTree = "<group>"; };
+		E92B9C6C1E14A4E70041D8C1 /* SingleReactionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleReactionVC.h; sourceTree = "<group>"; };
+		E92B9C6D1E14A4E70041D8C1 /* SingleReactionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleReactionVC.m; sourceTree = "<group>"; };
+		E92B9C6F1E14BD540041D8C1 /* NR_Baeyer-Villiger Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Baeyer-Villiger Oxidation.png"; sourceTree = "<group>"; };
+		E92B9C701E14BD540041D8C1 /* NR_Baker-Venkataraman Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Baker-Venkataraman Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9C711E14BD540041D8C1 /* NR_Balz-Schiemann Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Balz-Schiemann Reaction.png"; sourceTree = "<group>"; };
+		E92B9C721E14BD540041D8C1 /* NR_Bamford-Stevens Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bamford-Stevens Reaction.png"; sourceTree = "<group>"; };
+		E92B9C731E14BD540041D8C1 /* NR_Bartoli Indole Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bartoli Indole Synthesis.png"; sourceTree = "<group>"; };
+		E92B9C741E14BD540041D8C1 /* NR_Barton Decarboxylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Barton Decarboxylation.png"; sourceTree = "<group>"; };
+		E92B9C751E14BD540041D8C1 /* NR_Barton–McCombie Deoxygenation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Barton–McCombie Deoxygenation.png"; sourceTree = "<group>"; };
+		E92B9C761E14BD540041D8C1 /* NR_Baylis-Hillman Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Baylis-Hillman Reaction.png"; sourceTree = "<group>"; };
+		E92B9C771E14BD540041D8C1 /* NR_Beckmann Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Beckmann Reaction.png"; sourceTree = "<group>"; };
+		E92B9C781E14BD540041D8C1 /* NR_Benzilic Acid Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Benzilic Acid Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9C791E14BD540041D8C1 /* NR_Benzoin Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Benzoin Condensation.png"; sourceTree = "<group>"; };
+		E92B9C7A1E14BD540041D8C1 /* NR_Bergman Cyclization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bergman Cyclization.png"; sourceTree = "<group>"; };
+		E92B9C7B1E14BD540041D8C1 /* NR_Biginelli Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Biginelli Reaction.png"; sourceTree = "<group>"; };
+		E92B9C7C1E14BD540041D8C1 /* NR_Birch Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Birch Reduction.png"; sourceTree = "<group>"; };
+		E92B9C7D1E14BD540041D8C1 /* NR_Bischler-Napieralski Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bischler-Napieralski Reaction.png"; sourceTree = "<group>"; };
+		E92B9C7E1E14BD540041D8C1 /* NR_Blaise Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Blaise Reaction.png"; sourceTree = "<group>"; };
+		E92B9C7F1E14BD540041D8C1 /* NR_Blanc Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Blanc Reaction.png"; sourceTree = "<group>"; };
+		E92B9C801E14BD540041D8C1 /* NR_Bohlmann-Rahtz Pyridine Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bohlmann-Rahtz Pyridine Synthesis.png"; sourceTree = "<group>"; };
+		E92B9C811E14BD540041D8C1 /* NR_Bouveault-Blanc Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bouveault-Blanc Reduction.png"; sourceTree = "<group>"; };
+		E92B9C821E14BD540041D8C1 /* NR_Brook Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Brook Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9C831E14BD540041D8C1 /* NR_Brown Hydroboration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Brown Hydroboration.png"; sourceTree = "<group>"; };
+		E92B9C841E14BD540041D8C1 /* NR_Bucherer-Bergs Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Bucherer-Bergs Reaction.png"; sourceTree = "<group>"; };
+		E92B9C851E14BD540041D8C1 /* NR_Buchner Ring Expansion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Buchner Ring Expansion.png"; sourceTree = "<group>"; };
+		E92B9C861E14BD540041D8C1 /* NR_Buchwald-Hartwig Amination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Buchwald-Hartwig Amination.png"; sourceTree = "<group>"; };
+		E92B9C9F1E14BD7A0041D8C1 /* NR_Cannizzaro Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Cannizzaro Reaction.png"; sourceTree = "<group>"; };
+		E92B9CA01E14BD7A0041D8C1 /* NR_Carrol Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Carrol Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CA11E14BD7A0041D8C1 /* NR_Chichibabin Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Chichibabin Reaction.png"; sourceTree = "<group>"; };
+		E92B9CA21E14BD7A0041D8C1 /* NR_Ciamician-Dennstedt Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ciamician-Dennstedt Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CA31E14BD7A0041D8C1 /* NR_Claisen Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Claisen Condensation.png"; sourceTree = "<group>"; };
+		E92B9CA41E14BD7A0041D8C1 /* NR_Claisen Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Claisen Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CA51E14BD7A0041D8C1 /* NR_Clemmensen Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Clemmensen Reduction.png"; sourceTree = "<group>"; };
+		E92B9CA61E14BD7A0041D8C1 /* NR_Conia-Ene Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Conia-Ene Reaction.png"; sourceTree = "<group>"; };
+		E92B9CA71E14BD7A0041D8C1 /* NR_Cope Elimination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Cope Elimination.png"; sourceTree = "<group>"; };
+		E92B9CA81E14BD7A0041D8C1 /* NR_Cope Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Cope Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CA91E14BD7A0041D8C1 /* NR_Corey-Bakshi-Shibata (CBS) Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Bakshi-Shibata (CBS) Reduction.png"; sourceTree = "<group>"; };
+		E92B9CAA1E14BD7A0041D8C1 /* NR_Corey-Chaykovsky Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Chaykovsky Reaction.png"; sourceTree = "<group>"; };
+		E92B9CAB1E14BD7A0041D8C1 /* NR_Corey-Fuchs Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Fuchs Reaction.png"; sourceTree = "<group>"; };
+		E92B9CAC1E14BD7A0041D8C1 /* NR_Corey-Kim Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Kim Oxidation.png"; sourceTree = "<group>"; };
+		E92B9CAD1E14BD7A0041D8C1 /* NR_Corey-Seebach Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Seebach Reaction.png"; sourceTree = "<group>"; };
+		E92B9CAE1E14BD7A0041D8C1 /* NR_Corey-Winter Olefin Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Corey-Winter Olefin Synthesis.png"; sourceTree = "<group>"; };
+		E92B9CAF1E14BD7A0041D8C1 /* NR_Cornforth Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Cornforth Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CB01E14BD7A0041D8C1 /* NR_Curtius Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Curtius Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CC31E14D7A10041D8C1 /* NR_Dakin Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Dakin Reaction.png"; sourceTree = "<group>"; };
+		E92B9CC41E14D7A10041D8C1 /* NR_Dakin-West Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Dakin-West Reaction.png"; sourceTree = "<group>"; };
+		E92B9CC51E14D7A10041D8C1 /* NR_Darzens Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Darzens Reaction.png"; sourceTree = "<group>"; };
+		E92B9CC61E14D7A10041D8C1 /* NR_Delépine Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Delépine Reaction.png"; sourceTree = "<group>"; };
+		E92B9CC71E14D7A10041D8C1 /* NR_Demjanov Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Demjanov Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CC81E14D7A10041D8C1 /* NR_Dess-Martin Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Dess-Martin Oxidation.png"; sourceTree = "<group>"; };
+		E92B9CC91E14D7A10041D8C1 /* NR_Dieckmann Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Dieckmann Condensation.png"; sourceTree = "<group>"; };
+		E92B9CCA1E14D7A10041D8C1 /* NR_Diels-Alder Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Diels-Alder Reaction.png"; sourceTree = "<group>"; };
+		E92B9CCB1E14D7A10041D8C1 /* NR_Dienone-Phenol Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Dienone-Phenol Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CD51E14D7B20041D8C1 /* NR_Eglinton Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Eglinton Reaction.png"; sourceTree = "<group>"; };
+		E92B9CD61E14D7B20041D8C1 /* NR_Ene Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ene Reaction.png"; sourceTree = "<group>"; };
+		E92B9CD71E14D7B20041D8C1 /* NR_Enyne Metathesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Enyne Metathesis.png"; sourceTree = "<group>"; };
+		E92B9CD81E14D7B20041D8C1 /* NR_Eschenmoser-Claisen Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Eschenmoser-Claisen Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CD91E14D7B20041D8C1 /* NR_Eschweiler-Clarke Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Eschweiler-Clarke Reaction.png"; sourceTree = "<group>"; };
+		E92B9CDF1E14D7BA0041D8C1 /* NR_Favorskii Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Favorskii Reaction.png"; sourceTree = "<group>"; };
+		E92B9CE01E14D7BA0041D8C1 /* NR_Finkelstein Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Finkelstein Reaction.png"; sourceTree = "<group>"; };
+		E92B9CE11E14D7BA0041D8C1 /* NR_Fischer Esterification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fischer Esterification.png"; sourceTree = "<group>"; };
+		E92B9CE21E14D7BA0041D8C1 /* NR_Fischer Indole Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fischer Indole Synthesis.png"; sourceTree = "<group>"; };
+		E92B9CE31E14D7BA0041D8C1 /* NR_Fleming-Tamao Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fleming-Tamao Oxidation.png"; sourceTree = "<group>"; };
+		E92B9CE41E14D7BA0041D8C1 /* NR_Friedel-Crafts Acylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Friedel-Crafts Acylation.png"; sourceTree = "<group>"; };
+		E92B9CE51E14D7BA0041D8C1 /* NR_Friedel-Crafts Alkylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Friedel-Crafts Alkylation.png"; sourceTree = "<group>"; };
+		E92B9CE61E14D7BA0041D8C1 /* NR_Friedländer Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Friedländer Synthesis.png"; sourceTree = "<group>"; };
+		E92B9CE71E14D7BA0041D8C1 /* NR_Fries Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fries Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9CE81E14D7BA0041D8C1 /* NR_Fukuyama Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fukuyama Coupling.png"; sourceTree = "<group>"; };
+		E92B9CE91E14D7BA0041D8C1 /* NR_Fukuyama Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Fukuyama Reduction.png"; sourceTree = "<group>"; };
+		E92B9CF51E14D7C30041D8C1 /* NR_Gabriel Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Gabriel Synthesis.png"; sourceTree = "<group>"; };
+		E92B9CF61E14D7C30041D8C1 /* NR_Glaser Coupling (Hay Coupling).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Glaser Coupling (Hay Coupling).png"; sourceTree = "<group>"; };
+		E92B9CF71E14D7C30041D8C1 /* NR_Griesbaum Coozonolysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Griesbaum Coozonolysis.png"; sourceTree = "<group>"; };
+		E92B9CF81E14D7C30041D8C1 /* NR_Grignard Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Grignard Reaction.png"; sourceTree = "<group>"; };
+		E92B9CF91E14D7C30041D8C1 /* NR_Grubbs Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Grubbs Reaction.png"; sourceTree = "<group>"; };
+		E92B9CFF1E14D7CB0041D8C1 /* NR_Haloform Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Haloform Reaction.png"; sourceTree = "<group>"; };
+		E92B9D001E14D7CB0041D8C1 /* NR_Hantzsch Pyridine Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hantzsch Pyridine Synthesis.png"; sourceTree = "<group>"; };
+		E92B9D011E14D7CB0041D8C1 /* NR_Heck Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Heck Reaction.png"; sourceTree = "<group>"; };
+		E92B9D021E14D7CB0041D8C1 /* NR_Hell-Volhard-Zelinsky Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hell-Volhard-Zelinsky Reaction.png"; sourceTree = "<group>"; };
+		E92B9D031E14D7CB0041D8C1 /* NR_Henry Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Henry Reaction.png"; sourceTree = "<group>"; };
+		E92B9D041E14D7CB0041D8C1 /* NR_Hiyama Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hiyama Coupling.png"; sourceTree = "<group>"; };
+		E92B9D051E14D7CB0041D8C1 /* NR_Hiyama–Denmark Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hiyama–Denmark Coupling.png"; sourceTree = "<group>"; };
+		E92B9D061E14D7CB0041D8C1 /* NR_Hofmann Elimination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hofmann Elimination.png"; sourceTree = "<group>"; };
+		E92B9D071E14D7CB0041D8C1 /* NR_Hofmann Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hofmann Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D081E14D7CB0041D8C1 /* NR_Horner-Wadsworth-Emmons Olefination Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Horner-Wadsworth-Emmons Olefination Reaction.png"; sourceTree = "<group>"; };
+		E92B9D091E14D7CB0041D8C1 /* NR_Huisgen Cycloaddition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Huisgen Cycloaddition.png"; sourceTree = "<group>"; };
+		E92B9D0A1E14D7CB0041D8C1 /* NR_Hunsdiecker Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Hunsdiecker Reaction.png"; sourceTree = "<group>"; };
+		E92B9D171E14D7D30041D8C1 /* NR_Ireland-Claisen Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ireland-Claisen Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D181E14D7D30041D8C1 /* NR_Ivanov Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ivanov Reaction.png"; sourceTree = "<group>"; };
+		E92B9D1B1E14D7D90041D8C1 /* NR_Jacobsen Epoxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Jacobsen Epoxidation.png"; sourceTree = "<group>"; };
+		E92B9D1C1E14D7D90041D8C1 /* NR_Jocic Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Jocic Reaction.png"; sourceTree = "<group>"; };
+		E92B9D1D1E14D7D90041D8C1 /* NR_Johnson-Claisen Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Johnson-Claisen Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D1E1E14D7D90041D8C1 /* NR_Jones Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Jones Oxidation.png"; sourceTree = "<group>"; };
+		E92B9D1F1E14D7D90041D8C1 /* NR_Julia Olefination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Julia Olefination.png"; sourceTree = "<group>"; };
+		E92B9D201E14D7D90041D8C1 /* NR_Julia-Kocienski Olefination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Julia-Kocienski Olefination.png"; sourceTree = "<group>"; };
+		E92B9D271E14D7E10041D8C1 /* NR_Kabachnik-Fields Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kabachnik-Fields Reaction.png"; sourceTree = "<group>"; };
+		E92B9D281E14D7E10041D8C1 /* NR_Knoevenagel Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Knoevenagel Condensation.png"; sourceTree = "<group>"; };
+		E92B9D291E14D7E10041D8C1 /* NR_Knorr Pyrazole Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Knorr Pyrazole Synthesis.png"; sourceTree = "<group>"; };
+		E92B9D2A1E14D7E10041D8C1 /* NR_Kochi Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kochi Reaction.png"; sourceTree = "<group>"; };
+		E92B9D2B1E14D7E10041D8C1 /* NR_Kolbe Nitrile Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kolbe Nitrile Synthesis.png"; sourceTree = "<group>"; };
+		E92B9D2C1E14D7E10041D8C1 /* NR_Kolbe-Schmitt Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kolbe-Schmitt Reaction.png"; sourceTree = "<group>"; };
+		E92B9D2D1E14D7E10041D8C1 /* NR_Kulinkovich Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kulinkovich Reaction.png"; sourceTree = "<group>"; };
+		E92B9D2E1E14D7E10041D8C1 /* NR_Kumada Cross-Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Kumada Cross-Coupling.png"; sourceTree = "<group>"; };
+		E92B9D371E14D7E90041D8C1 /* NR_Lawesson's Reagent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Lawesson's Reagent.png"; sourceTree = "<group>"; };
+		E92B9D391E14D7E90041D8C1 /* NR_Leuckart Thiophenol Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Leuckart Thiophenol Reaction.png"; sourceTree = "<group>"; };
+		E92B9D3A1E14D7E90041D8C1 /* NR_Lossen Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Lossen Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D411E14D7F10041D8C1 /* NR_Meisenheimer (1, 2) Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Meisenheimer (1, 2) Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D421E14D7F10041D8C1 /* NR_Meisenheimer (2, 3) Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Meisenheimer (2, 3) Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D431E14D7F10041D8C1 /* NR_Madelung Indole Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Madelung Indole Synthesis.png"; sourceTree = "<group>"; };
+		E92B9D441E14D7F10041D8C1 /* NR_Mannich Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Mannich Reaction.png"; sourceTree = "<group>"; };
+		E92B9D451E14D7F10041D8C1 /* NR_McMurry Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_McMurry Reaction.png"; sourceTree = "<group>"; };
+		E92B9D461E14D7F10041D8C1 /* NR_Meerwein–Ponndorf–Verley Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Meerwein–Ponndorf–Verley Reduction.png"; sourceTree = "<group>"; };
+		E92B9D471E14D7F10041D8C1 /* NR_Meyer–Schuster Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Meyer–Schuster Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D481E14D7F10041D8C1 /* NR_Michael Addition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Michael Addition.png"; sourceTree = "<group>"; };
+		E92B9D491E14D7F10041D8C1 /* NR_Mislow–Evans Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Mislow–Evans Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D4A1E14D7F10041D8C1 /* NR_Mitsunobu Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Mitsunobu Reaction.png"; sourceTree = "<group>"; };
+		E92B9D4B1E14D7F10041D8C1 /* NR_Mukaiyama Aldol Addition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Mukaiyama Aldol Addition.png"; sourceTree = "<group>"; };
+		E92B9D4C1E14D7F10041D8C1 /* NR_Myers-Saito Cyclization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Myers-Saito Cyclization.png"; sourceTree = "<group>"; };
+		E92B9D591E14D7FD0041D8C1 /* NR_Nazarov Cyclization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Nazarov Cyclization.png"; sourceTree = "<group>"; };
+		E92B9D5A1E14D7FD0041D8C1 /* NR_Nef Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Nef Reaction.png"; sourceTree = "<group>"; };
+		E92B9D5B1E14D7FD0041D8C1 /* NR_Negishi Cross-Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Negishi Cross-Coupling.png"; sourceTree = "<group>"; };
+		E92B9D5C1E14D7FD0041D8C1 /* NR_Newman-Kwart Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Newman-Kwart Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D5D1E14D7FD0041D8C1 /* NR_Nozaki-Hiyama-Kishi Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Nozaki-Hiyama-Kishi Reaction.png"; sourceTree = "<group>"; };
+		E92B9D631E14D80B0041D8C1 /* NR_Oppenauer Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Oppenauer Oxidation.png"; sourceTree = "<group>"; };
+		E92B9D641E14D80B0041D8C1 /* NR_Overman Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Overman Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D651E14D80B0041D8C1 /* NR_Oxy-Cope Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Oxy-Cope Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D691E14D8170041D8C1 /* NR_Paal–Knorr Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Paal–Knorr Synthesis.png"; sourceTree = "<group>"; };
+		E92B9D6A1E14D8170041D8C1 /* NR_Passerini Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Passerini Reaction.png"; sourceTree = "<group>"; };
+		E92B9D6B1E14D8170041D8C1 /* NR_Paternò–Büchi Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Paternò–Büchi Reaction.png"; sourceTree = "<group>"; };
+		E92B9D6C1E14D8170041D8C1 /* NR_Pauson-Khand Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pauson-Khand Reaction.png"; sourceTree = "<group>"; };
+		E92B9D6D1E14D8170041D8C1 /* NR_Payne Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Payne Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D6E1E14D8170041D8C1 /* NR_Pechmann Condensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pechmann Condensation.png"; sourceTree = "<group>"; };
+		E92B9D6F1E14D8170041D8C1 /* NR_Perkin Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Perkin Reaction.png"; sourceTree = "<group>"; };
+		E92B9D701E14D8170041D8C1 /* NR_Petasis Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Petasis Reaction.png"; sourceTree = "<group>"; };
+		E92B9D711E14D8170041D8C1 /* NR_Petasis-Ferrier Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Petasis-Ferrier Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D721E14D8170041D8C1 /* NR_Peterson Olefination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Peterson Olefination.png"; sourceTree = "<group>"; };
+		E92B9D741E14D8170041D8C1 /* NR_Pictet-Spengler Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pictet-Spengler Reaction.png"; sourceTree = "<group>"; };
+		E92B9D751E14D8170041D8C1 /* NR_Pinacol Coupling Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pinacol Coupling Reaction.png"; sourceTree = "<group>"; };
+		E92B9D761E14D8170041D8C1 /* NR_Pinacol Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pinacol Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D771E14D8170041D8C1 /* NR_Pinner Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pinner Reaction.png"; sourceTree = "<group>"; };
+		E92B9D781E14D8170041D8C1 /* NR_Pinnick Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pinnick Oxidation.png"; sourceTree = "<group>"; };
+		E92B9D791E14D8170041D8C1 /* NR_Prévost Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Prévost Reaction.png"; sourceTree = "<group>"; };
+		E92B9D7A1E14D8170041D8C1 /* NR_Prilezhaev Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Prilezhaev Reaction.png"; sourceTree = "<group>"; };
+		E92B9D7B1E14D8170041D8C1 /* NR_Prins Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Prins Reaction.png"; sourceTree = "<group>"; };
+		E92B9D7C1E14D8170041D8C1 /* NR_Pschorr Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pschorr Reaction.png"; sourceTree = "<group>"; };
+		E92B9D7D1E14D8170041D8C1 /* NR_Pummerer Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Pummerer Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D931E14D81F0041D8C1 /* NR_Quasi-Favorskii Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Quasi-Favorskii Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9D951E14D8260041D8C1 /* NR_Ramberg–Bäcklund Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ramberg–Bäcklund Reaction.png"; sourceTree = "<group>"; };
+		E92B9D961E14D8260041D8C1 /* NR_Reformatsky Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Reformatsky Reaction.png"; sourceTree = "<group>"; };
+		E92B9D971E14D8260041D8C1 /* NR_Reimer-Tiemann Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Reimer-Tiemann Reaction.png"; sourceTree = "<group>"; };
+		E92B9D981E14D8260041D8C1 /* NR_Ritter Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ritter Reaction.png"; sourceTree = "<group>"; };
+		E92B9D991E14D8260041D8C1 /* NR_Robinson Annulation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Robinson Annulation.png"; sourceTree = "<group>"; };
+		E92B9D9A1E14D8260041D8C1 /* NR_Rosenmund Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Rosenmund Reduction.png"; sourceTree = "<group>"; };
+		E92B9D9B1E14D8260041D8C1 /* NR_Rosenmund-von Braun Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Rosenmund-von Braun Reaction.png"; sourceTree = "<group>"; };
+		E92B9D9C1E14D8260041D8C1 /* NR_Rubottom Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Rubottom Oxidation.png"; sourceTree = "<group>"; };
+		E92B9DA71E14D8610041D8C1 /* NR_Saegusa Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Saegusa Oxidation.png"; sourceTree = "<group>"; };
+		E92B9DA81E14D8610041D8C1 /* NR_Sakurai Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sakurai Reaction.png"; sourceTree = "<group>"; };
+		E92B9DA91E14D8610041D8C1 /* NR_Sandmeyer Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sandmeyer Reaction.png"; sourceTree = "<group>"; };
+		E92B9DAA1E14D8610041D8C1 /* NR_Schmidt Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Schmidt Reaction.png"; sourceTree = "<group>"; };
+		E92B9DAB1E14D8610041D8C1 /* NR_Schotten-Baumann Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Schotten-Baumann Reaction.png"; sourceTree = "<group>"; };
+		E92B9DAC1E14D8610041D8C1 /* NR_Seyferth-Gilbert Homologation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Seyferth-Gilbert Homologation.png"; sourceTree = "<group>"; };
+		E92B9DAD1E14D8610041D8C1 /* NR_Shapiro Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Shapiro Reaction.png"; sourceTree = "<group>"; };
+		E92B9DAE1E14D8610041D8C1 /* NR_Sharpless Dihydroxylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sharpless Dihydroxylation.png"; sourceTree = "<group>"; };
+		E92B9DAF1E14D8610041D8C1 /* NR_Sharpless Epoxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sharpless Epoxidation.png"; sourceTree = "<group>"; };
+		E92B9DB01E14D8610041D8C1 /* NR_Sharpless Oxyamination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sharpless Oxyamination.png"; sourceTree = "<group>"; };
+		E92B9DB11E14D8610041D8C1 /* NR_Shi Epoxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Shi Epoxidation.png"; sourceTree = "<group>"; };
+		E92B9DB21E14D8610041D8C1 /* NR_Simmons-Smith Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Simmons-Smith Reaction.png"; sourceTree = "<group>"; };
+		E92B9DB31E14D8610041D8C1 /* NR_Smiles Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Smiles Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DB41E14D8610041D8C1 /* NR_Sommelet–Hauser Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sommelet–Hauser Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DB51E14D8610041D8C1 /* NR_Sonogashira Cross-Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Sonogashira Cross-Coupling.png"; sourceTree = "<group>"; };
+		E92B9DB61E14D8610041D8C1 /* NR_Staudinger Cycloaddition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Staudinger Cycloaddition.png"; sourceTree = "<group>"; };
+		E92B9DB71E14D8610041D8C1 /* NR_Staudinger Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Staudinger Reaction.png"; sourceTree = "<group>"; };
+		E92B9DB81E14D8610041D8C1 /* NR_Steglich Esterification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Steglich Esterification.png"; sourceTree = "<group>"; };
+		E92B9DB91E14D8610041D8C1 /* NR_Stetter Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Stetter Reaction.png"; sourceTree = "<group>"; };
+		E92B9DBA1E14D8610041D8C1 /* NR_Stevens Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Stevens Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DBB1E14D8610041D8C1 /* NR_Stille Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Stille Coupling.png"; sourceTree = "<group>"; };
+		E92B9DBC1E14D8610041D8C1 /* NR_Strecker Amino Acid Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Strecker Amino Acid Synthesis.png"; sourceTree = "<group>"; };
+		E92B9DBD1E14D8610041D8C1 /* NR_Suzuki Cross-Coupling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Suzuki Cross-Coupling.png"; sourceTree = "<group>"; };
+		E92B9DBE1E14D8610041D8C1 /* NR_Swern Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Swern Oxidation.png"; sourceTree = "<group>"; };
+		E92B9DD71E14D8690041D8C1 /* NR_Tebbe Olefination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Tebbe Olefination.png"; sourceTree = "<group>"; };
+		E92B9DD81E14D8690041D8C1 /* NR_Tiffeneau–Demjanov Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Tiffeneau–Demjanov Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DD91E14D8690041D8C1 /* NR_Tishchenko Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Tishchenko Reaction.png"; sourceTree = "<group>"; };
+		E92B9DDA1E14D86A0041D8C1 /* NR_Tsuji–Trost Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Tsuji–Trost Reaction.png"; sourceTree = "<group>"; };
+		E92B9DDF1E14D8710041D8C1 /* NR_Ugi Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ugi Reaction.png"; sourceTree = "<group>"; };
+		E92B9DE01E14D8710041D8C1 /* NR_Ullmann Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Ullmann Reaction.png"; sourceTree = "<group>"; };
+		E92B9DE11E14D8710041D8C1 /* NR_Upjohn Dihydroxylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Upjohn Dihydroxylation.png"; sourceTree = "<group>"; };
+		E92B9DE51E14D8780041D8C1 /* NR_Van Leusen Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Van Leusen Reaction.png"; sourceTree = "<group>"; };
+		E92B9DE61E14D8780041D8C1 /* NR_Vilsmeier-Haack Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Vilsmeier-Haack Reaction.png"; sourceTree = "<group>"; };
+		E92B9DE71E14D8780041D8C1 /* NR_Vinylcyclopropane-Cyclopentene Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Vinylcyclopropane-Cyclopentene Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DEC1E14D8800041D8C1 /* NR_Wittig (1, 2) Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wittig (1, 2) Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DED1E14D8800041D8C1 /* NR_Wittig (2, 3) Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wittig (2, 3) Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DEE1E14D8800041D8C1 /* NR_Wacker-Tsuji Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wacker-Tsuji Oxidation.png"; sourceTree = "<group>"; };
+		E92B9DEF1E14D8800041D8C1 /* NR_Wagner-Meerwein Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wagner-Meerwein Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DF01E14D8800041D8C1 /* NR_Weinreb Ketone Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Weinreb Ketone Synthesis.png"; sourceTree = "<group>"; };
+		E92B9DF11E14D8800041D8C1 /* NR_Wenker Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wenker Synthesis.png"; sourceTree = "<group>"; };
+		E92B9DF21E14D8800041D8C1 /* NR_Williamson Ether Synthesis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Williamson Ether Synthesis.png"; sourceTree = "<group>"; };
+		E92B9DF31E14D8800041D8C1 /* NR_Wittig Olefination Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wittig Olefination Reaction.png"; sourceTree = "<group>"; };
+		E92B9DF41E14D8800041D8C1 /* NR_Wohl-Ziegler Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wohl-Ziegler Reaction.png"; sourceTree = "<group>"; };
+		E92B9DF51E14D8800041D8C1 /* NR_Wolff Rearrangement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wolff Rearrangement.png"; sourceTree = "<group>"; };
+		E92B9DF61E14D8800041D8C1 /* NR_Wolff-Kishner Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wolff-Kishner Reduction.png"; sourceTree = "<group>"; };
+		E92B9DF71E14D8800041D8C1 /* NR_Wolff-Kishner-Huang Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wolff-Kishner-Huang Reduction.png"; sourceTree = "<group>"; };
+		E92B9DF81E14D8800041D8C1 /* NR_Woodward cis-Hydroxylation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Woodward cis-Hydroxylation.png"; sourceTree = "<group>"; };
+		E92B9DF91E14D8800041D8C1 /* NR_Wurtz Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wurtz Reaction.png"; sourceTree = "<group>"; };
+		E92B9DFA1E14D8800041D8C1 /* NR_Wurtz-Fittig Reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Wurtz-Fittig Reaction.png"; sourceTree = "<group>"; };
+		E92B9E0B1E14D8900041D8C1 /* NR_Yamaguchi Esterification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Yamaguchi Esterification.png"; sourceTree = "<group>"; };
+		E92B9E261E14DD5D0041D8C1 /* ReactionTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionTypes.h; sourceTree = "<group>"; };
+		E92B9E271E14DD5D0041D8C1 /* ReactionTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionTypes.m; sourceTree = "<group>"; };
+		E92B9E291E14E2450041D8C1 /* NR_Lei-Griffith Oxidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Lei-Griffith Oxidation.png"; sourceTree = "<group>"; };
+		E92B9E2B1E14EA470041D8C1 /* NameReactionTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameReactionTypeVC.h; sourceTree = "<group>"; };
+		E92B9E2C1E14EA470041D8C1 /* NameReactionTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameReactionTypeVC.m; sourceTree = "<group>"; };
+		E92B9E2E1E14F7590041D8C1 /* ReactionOfOneTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionOfOneTypeVC.h; sourceTree = "<group>"; };
+		E92B9E2F1E14F7590041D8C1 /* ReactionOfOneTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionOfOneTypeVC.m; sourceTree = "<group>"; };
+		E9839EB61E1833E9005C3133 /* launchImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImg.png; sourceTree = "<group>"; };
+		E9EA9EB51E15FF0400BD77E3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E9EA9EB61E15FF0400BD77E3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E9EA9EB81E15FFB500BD77E3 /* RandomReactionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomReactionGenerator.h; sourceTree = "<group>"; };
+		E9EA9EB91E15FFB500BD77E3 /* RandomReactionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomReactionGenerator.m; sourceTree = "<group>"; };
+		E9EA9EBB1E16242A00BD77E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E9F509B21E159ED700E07F0E /* NR_Luche Reduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NR_Luche Reduction.png"; sourceTree = "<group>"; };
+		E9F509B81E15C1A000E07F0E /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92B9C111E14770B0041D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C2D1E14770B0041D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C381E14770B0041D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92B9C0B1E14770B0041D8C1 = {
+			isa = PBXGroup;
+			children = (
+				E92B9C161E14770B0041D8C1 /* NameReactionMaster */,
+				E92B9C331E14770B0041D8C1 /* NameReactionMasterTests */,
+				E92B9C3E1E14770B0041D8C1 /* NameReactionMasterUITests */,
+				E92B9C151E14770B0041D8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E92B9C151E14770B0041D8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C141E14770B0041D8C1 /* NameReactionMaster.app */,
+				E92B9C301E14770B0041D8C1 /* NameReactionMasterTests.xctest */,
+				E92B9C3B1E14770B0041D8C1 /* NameReactionMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92B9C161E14770B0041D8C1 /* NameReactionMaster */ = {
+			isa = PBXGroup;
+			children = (
+				E9EA9EBB1E16242A00BD77E3 /* Main.storyboard */,
+				E92B9C4E1E14772B0041D8C1 /* model */,
+				E92B9C4D1E14771F0041D8C1 /* controller */,
+				E92B9C5F1E147BED0041D8C1 /* utils */,
+				E92B9C171E14770B0041D8C1 /* Supporting Files */,
+				E92B9C261E14770B0041D8C1 /* Assets.xcassets */,
+				E92B9C281E14770B0041D8C1 /* LaunchScreen.storyboard */,
+				E92B9C2B1E14770B0041D8C1 /* Info.plist */,
+				E92B9C231E14770B0041D8C1 /* NameReactionMaster.xcdatamodeld */,
+			);
+			path = NameReactionMaster;
+			sourceTree = "<group>";
+		};
+		E92B9C171E14770B0041D8C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9839EB61E1833E9005C3133 /* launchImg.png */,
+				E9F509B81E15C1A000E07F0E /* background.jpeg */,
+				E92B9E251E14D9750041D8C1 /* ReactionSource */,
+				E92B9C181E14770B0041D8C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E92B9C331E14770B0041D8C1 /* NameReactionMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C341E14770B0041D8C1 /* NameReactionMasterTests.m */,
+				E92B9C361E14770B0041D8C1 /* Info.plist */,
+			);
+			path = NameReactionMasterTests;
+			sourceTree = "<group>";
+		};
+		E92B9C3E1E14770B0041D8C1 /* NameReactionMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C3F1E14770B0041D8C1 /* NameReactionMasterUITests.m */,
+				E92B9C411E14770B0041D8C1 /* Info.plist */,
+			);
+			path = NameReactionMasterUITests;
+			sourceTree = "<group>";
+		};
+		E92B9C4D1E14771F0041D8C1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C1A1E14770B0041D8C1 /* AppDelegate.h */,
+				E92B9C1B1E14770B0041D8C1 /* AppDelegate.m */,
+				E92B9C1D1E14770B0041D8C1 /* ViewController.h */,
+				E92B9C1E1E14770B0041D8C1 /* ViewController.m */,
+				E92B9C631E1483020041D8C1 /* NameReactionListVC.h */,
+				E92B9C641E1483020041D8C1 /* NameReactionListVC.m */,
+				E92B9C6C1E14A4E70041D8C1 /* SingleReactionVC.h */,
+				E92B9C6D1E14A4E70041D8C1 /* SingleReactionVC.m */,
+				E92B9E2B1E14EA470041D8C1 /* NameReactionTypeVC.h */,
+				E92B9E2C1E14EA470041D8C1 /* NameReactionTypeVC.m */,
+				E92B9E2E1E14F7590041D8C1 /* ReactionOfOneTypeVC.h */,
+				E92B9E2F1E14F7590041D8C1 /* ReactionOfOneTypeVC.m */,
+				E9EA9EB51E15FF0400BD77E3 /* TestViewController.h */,
+				E9EA9EB61E15FF0400BD77E3 /* TestViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E92B9C4E1E14772B0041D8C1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C661E148CD20041D8C1 /* Reaction.h */,
+				E92B9C671E148CD20041D8C1 /* Reaction.m */,
+				E92B9C691E1494570041D8C1 /* AllReactions.h */,
+				E92B9C6A1E1494570041D8C1 /* AllReactions.m */,
+				E92B9E261E14DD5D0041D8C1 /* ReactionTypes.h */,
+				E92B9E271E14DD5D0041D8C1 /* ReactionTypes.m */,
+				E9EA9EB81E15FFB500BD77E3 /* RandomReactionGenerator.h */,
+				E9EA9EB91E15FFB500BD77E3 /* RandomReactionGenerator.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E92B9C5F1E147BED0041D8C1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C601E147C200041D8C1 /* ReactionHandler.h */,
+				E92B9C611E147C200041D8C1 /* ReactionHandler.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		E92B9DA51E14D8340041D8C1 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C4F1E14776E0041D8C1 /* NR_Acetoacetic-Ester Condensation.png */,
+				E92B9C501E14776E0041D8C1 /* NR_Acyloin Condensation.png */,
+				E92B9C511E14776E0041D8C1 /* NR_Aldol Reaction.png */,
+				E92B9C521E14776E0041D8C1 /* NR_Appel Reaction.png */,
+				E92B9C531E14776E0041D8C1 /* NR_Arbuzov Reaction.png */,
+				E92B9C541E14776E0041D8C1 /* NR_Arndt-Eistert Synthesis.png */,
+				E92B9C551E14776E0041D8C1 /* NR_Azide-Alkyne Cycloaddition.png */,
+				E92B9C561E14776E0041D8C1 /* NR_Azo Coupling.png */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
+		E92B9DA61E14D8490041D8C1 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C6F1E14BD540041D8C1 /* NR_Baeyer-Villiger Oxidation.png */,
+				E92B9C701E14BD540041D8C1 /* NR_Baker-Venkataraman Rearrangement.png */,
+				E92B9C711E14BD540041D8C1 /* NR_Balz-Schiemann Reaction.png */,
+				E92B9C721E14BD540041D8C1 /* NR_Bamford-Stevens Reaction.png */,
+				E92B9C731E14BD540041D8C1 /* NR_Bartoli Indole Synthesis.png */,
+				E92B9C741E14BD540041D8C1 /* NR_Barton Decarboxylation.png */,
+				E92B9C751E14BD540041D8C1 /* NR_Barton–McCombie Deoxygenation.png */,
+				E92B9C761E14BD540041D8C1 /* NR_Baylis-Hillman Reaction.png */,
+				E92B9C771E14BD540041D8C1 /* NR_Beckmann Reaction.png */,
+				E92B9C781E14BD540041D8C1 /* NR_Benzilic Acid Rearrangement.png */,
+				E92B9C791E14BD540041D8C1 /* NR_Benzoin Condensation.png */,
+				E92B9C7A1E14BD540041D8C1 /* NR_Bergman Cyclization.png */,
+				E92B9C7B1E14BD540041D8C1 /* NR_Biginelli Reaction.png */,
+				E92B9C7C1E14BD540041D8C1 /* NR_Birch Reduction.png */,
+				E92B9C7D1E14BD540041D8C1 /* NR_Bischler-Napieralski Reaction.png */,
+				E92B9C7E1E14BD540041D8C1 /* NR_Blaise Reaction.png */,
+				E92B9C7F1E14BD540041D8C1 /* NR_Blanc Reaction.png */,
+				E92B9C801E14BD540041D8C1 /* NR_Bohlmann-Rahtz Pyridine Synthesis.png */,
+				E92B9C811E14BD540041D8C1 /* NR_Bouveault-Blanc Reduction.png */,
+				E92B9C821E14BD540041D8C1 /* NR_Brook Rearrangement.png */,
+				E92B9C831E14BD540041D8C1 /* NR_Brown Hydroboration.png */,
+				E92B9C841E14BD540041D8C1 /* NR_Bucherer-Bergs Reaction.png */,
+				E92B9C851E14BD540041D8C1 /* NR_Buchner Ring Expansion.png */,
+				E92B9C861E14BD540041D8C1 /* NR_Buchwald-Hartwig Amination.png */,
+			);
+			name = B;
+			sourceTree = "<group>";
+		};
+		E92B9E0D1E14D8980041D8C1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9C9F1E14BD7A0041D8C1 /* NR_Cannizzaro Reaction.png */,
+				E92B9CA01E14BD7A0041D8C1 /* NR_Carrol Rearrangement.png */,
+				E92B9CA11E14BD7A0041D8C1 /* NR_Chichibabin Reaction.png */,
+				E92B9CA21E14BD7A0041D8C1 /* NR_Ciamician-Dennstedt Rearrangement.png */,
+				E92B9CA31E14BD7A0041D8C1 /* NR_Claisen Condensation.png */,
+				E92B9CA41E14BD7A0041D8C1 /* NR_Claisen Rearrangement.png */,
+				E92B9CA51E14BD7A0041D8C1 /* NR_Clemmensen Reduction.png */,
+				E92B9CA61E14BD7A0041D8C1 /* NR_Conia-Ene Reaction.png */,
+				E92B9CA71E14BD7A0041D8C1 /* NR_Cope Elimination.png */,
+				E92B9CA81E14BD7A0041D8C1 /* NR_Cope Rearrangement.png */,
+				E92B9CA91E14BD7A0041D8C1 /* NR_Corey-Bakshi-Shibata (CBS) Reduction.png */,
+				E92B9CAA1E14BD7A0041D8C1 /* NR_Corey-Chaykovsky Reaction.png */,
+				E92B9CAB1E14BD7A0041D8C1 /* NR_Corey-Fuchs Reaction.png */,
+				E92B9CAC1E14BD7A0041D8C1 /* NR_Corey-Kim Oxidation.png */,
+				E92B9CAD1E14BD7A0041D8C1 /* NR_Corey-Seebach Reaction.png */,
+				E92B9CAE1E14BD7A0041D8C1 /* NR_Corey-Winter Olefin Synthesis.png */,
+				E92B9CAF1E14BD7A0041D8C1 /* NR_Cornforth Rearrangement.png */,
+				E92B9CB01E14BD7A0041D8C1 /* NR_Curtius Rearrangement.png */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E92B9E0E1E14D8A20041D8C1 /* D */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9CC31E14D7A10041D8C1 /* NR_Dakin Reaction.png */,
+				E92B9CC41E14D7A10041D8C1 /* NR_Dakin-West Reaction.png */,
+				E92B9CC51E14D7A10041D8C1 /* NR_Darzens Reaction.png */,
+				E92B9CC61E14D7A10041D8C1 /* NR_Delépine Reaction.png */,
+				E92B9CC71E14D7A10041D8C1 /* NR_Demjanov Rearrangement.png */,
+				E92B9CC81E14D7A10041D8C1 /* NR_Dess-Martin Oxidation.png */,
+				E92B9CC91E14D7A10041D8C1 /* NR_Dieckmann Condensation.png */,
+				E92B9CCA1E14D7A10041D8C1 /* NR_Diels-Alder Reaction.png */,
+				E92B9CCB1E14D7A10041D8C1 /* NR_Dienone-Phenol Rearrangement.png */,
+			);
+			name = D;
+			sourceTree = "<group>";
+		};
+		E92B9E0F1E14D8AD0041D8C1 /* E */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9CD51E14D7B20041D8C1 /* NR_Eglinton Reaction.png */,
+				E92B9CD61E14D7B20041D8C1 /* NR_Ene Reaction.png */,
+				E92B9CD71E14D7B20041D8C1 /* NR_Enyne Metathesis.png */,
+				E92B9CD81E14D7B20041D8C1 /* NR_Eschenmoser-Claisen Rearrangement.png */,
+				E92B9CD91E14D7B20041D8C1 /* NR_Eschweiler-Clarke Reaction.png */,
+			);
+			name = E;
+			sourceTree = "<group>";
+		};
+		E92B9E101E14D8B60041D8C1 /* F */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9CDF1E14D7BA0041D8C1 /* NR_Favorskii Reaction.png */,
+				E92B9CE01E14D7BA0041D8C1 /* NR_Finkelstein Reaction.png */,
+				E92B9CE11E14D7BA0041D8C1 /* NR_Fischer Esterification.png */,
+				E92B9CE21E14D7BA0041D8C1 /* NR_Fischer Indole Synthesis.png */,
+				E92B9CE31E14D7BA0041D8C1 /* NR_Fleming-Tamao Oxidation.png */,
+				E92B9CE41E14D7BA0041D8C1 /* NR_Friedel-Crafts Acylation.png */,
+				E92B9CE51E14D7BA0041D8C1 /* NR_Friedel-Crafts Alkylation.png */,
+				E92B9CE61E14D7BA0041D8C1 /* NR_Friedländer Synthesis.png */,
+				E92B9CE71E14D7BA0041D8C1 /* NR_Fries Rearrangement.png */,
+				E92B9CE81E14D7BA0041D8C1 /* NR_Fukuyama Coupling.png */,
+				E92B9CE91E14D7BA0041D8C1 /* NR_Fukuyama Reduction.png */,
+			);
+			name = F;
+			sourceTree = "<group>";
+		};
+		E92B9E111E14D8BF0041D8C1 /* G */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9CF51E14D7C30041D8C1 /* NR_Gabriel Synthesis.png */,
+				E92B9CF61E14D7C30041D8C1 /* NR_Glaser Coupling (Hay Coupling).png */,
+				E92B9CF71E14D7C30041D8C1 /* NR_Griesbaum Coozonolysis.png */,
+				E92B9CF81E14D7C30041D8C1 /* NR_Grignard Reaction.png */,
+				E92B9CF91E14D7C30041D8C1 /* NR_Grubbs Reaction.png */,
+			);
+			name = G;
+			sourceTree = "<group>";
+		};
+		E92B9E121E14D8CA0041D8C1 /* H */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9CFF1E14D7CB0041D8C1 /* NR_Haloform Reaction.png */,
+				E92B9D001E14D7CB0041D8C1 /* NR_Hantzsch Pyridine Synthesis.png */,
+				E92B9D011E14D7CB0041D8C1 /* NR_Heck Reaction.png */,
+				E92B9D021E14D7CB0041D8C1 /* NR_Hell-Volhard-Zelinsky Reaction.png */,
+				E92B9D031E14D7CB0041D8C1 /* NR_Henry Reaction.png */,
+				E92B9D041E14D7CB0041D8C1 /* NR_Hiyama Coupling.png */,
+				E92B9D051E14D7CB0041D8C1 /* NR_Hiyama–Denmark Coupling.png */,
+				E92B9D061E14D7CB0041D8C1 /* NR_Hofmann Elimination.png */,
+				E92B9D071E14D7CB0041D8C1 /* NR_Hofmann Rearrangement.png */,
+				E92B9D081E14D7CB0041D8C1 /* NR_Horner-Wadsworth-Emmons Olefination Reaction.png */,
+				E92B9D091E14D7CB0041D8C1 /* NR_Huisgen Cycloaddition.png */,
+				E92B9D0A1E14D7CB0041D8C1 /* NR_Hunsdiecker Reaction.png */,
+			);
+			name = H;
+			sourceTree = "<group>";
+		};
+		E92B9E131E14D8D50041D8C1 /* I */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D171E14D7D30041D8C1 /* NR_Ireland-Claisen Rearrangement.png */,
+				E92B9D181E14D7D30041D8C1 /* NR_Ivanov Reaction.png */,
+			);
+			name = I;
+			sourceTree = "<group>";
+		};
+		E92B9E141E14D8DE0041D8C1 /* J */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D1B1E14D7D90041D8C1 /* NR_Jacobsen Epoxidation.png */,
+				E92B9D1C1E14D7D90041D8C1 /* NR_Jocic Reaction.png */,
+				E92B9D1D1E14D7D90041D8C1 /* NR_Johnson-Claisen Rearrangement.png */,
+				E92B9D1E1E14D7D90041D8C1 /* NR_Jones Oxidation.png */,
+				E92B9D1F1E14D7D90041D8C1 /* NR_Julia Olefination.png */,
+				E92B9D201E14D7D90041D8C1 /* NR_Julia-Kocienski Olefination.png */,
+			);
+			name = J;
+			sourceTree = "<group>";
+		};
+		E92B9E151E14D8E70041D8C1 /* K */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D271E14D7E10041D8C1 /* NR_Kabachnik-Fields Reaction.png */,
+				E92B9D281E14D7E10041D8C1 /* NR_Knoevenagel Condensation.png */,
+				E92B9D291E14D7E10041D8C1 /* NR_Knorr Pyrazole Synthesis.png */,
+				E92B9D2A1E14D7E10041D8C1 /* NR_Kochi Reaction.png */,
+				E92B9D2B1E14D7E10041D8C1 /* NR_Kolbe Nitrile Synthesis.png */,
+				E92B9D2C1E14D7E10041D8C1 /* NR_Kolbe-Schmitt Reaction.png */,
+				E92B9D2D1E14D7E10041D8C1 /* NR_Kulinkovich Reaction.png */,
+				E92B9D2E1E14D7E10041D8C1 /* NR_Kumada Cross-Coupling.png */,
+			);
+			name = K;
+			sourceTree = "<group>";
+		};
+		E92B9E161E14D8EF0041D8C1 /* L */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D371E14D7E90041D8C1 /* NR_Lawesson's Reagent.png */,
+				E92B9E291E14E2450041D8C1 /* NR_Lei-Griffith Oxidation.png */,
+				E92B9D391E14D7E90041D8C1 /* NR_Leuckart Thiophenol Reaction.png */,
+				E92B9D3A1E14D7E90041D8C1 /* NR_Lossen Rearrangement.png */,
+				E9F509B21E159ED700E07F0E /* NR_Luche Reduction.png */,
+			);
+			name = L;
+			sourceTree = "<group>";
+		};
+		E92B9E171E14D8F80041D8C1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D411E14D7F10041D8C1 /* NR_Meisenheimer (1, 2) Rearrangement.png */,
+				E92B9D421E14D7F10041D8C1 /* NR_Meisenheimer (2, 3) Rearrangement.png */,
+				E92B9D431E14D7F10041D8C1 /* NR_Madelung Indole Synthesis.png */,
+				E92B9D441E14D7F10041D8C1 /* NR_Mannich Reaction.png */,
+				E92B9D451E14D7F10041D8C1 /* NR_McMurry Reaction.png */,
+				E92B9D461E14D7F10041D8C1 /* NR_Meerwein–Ponndorf–Verley Reduction.png */,
+				E92B9D471E14D7F10041D8C1 /* NR_Meyer–Schuster Rearrangement.png */,
+				E92B9D481E14D7F10041D8C1 /* NR_Michael Addition.png */,
+				E92B9D491E14D7F10041D8C1 /* NR_Mislow–Evans Rearrangement.png */,
+				E92B9D4A1E14D7F10041D8C1 /* NR_Mitsunobu Reaction.png */,
+				E92B9D4B1E14D7F10041D8C1 /* NR_Mukaiyama Aldol Addition.png */,
+				E92B9D4C1E14D7F10041D8C1 /* NR_Myers-Saito Cyclization.png */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		E92B9E181E14D9030041D8C1 /* N */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D591E14D7FD0041D8C1 /* NR_Nazarov Cyclization.png */,
+				E92B9D5A1E14D7FD0041D8C1 /* NR_Nef Reaction.png */,
+				E92B9D5B1E14D7FD0041D8C1 /* NR_Negishi Cross-Coupling.png */,
+				E92B9D5C1E14D7FD0041D8C1 /* NR_Newman-Kwart Rearrangement.png */,
+				E92B9D5D1E14D7FD0041D8C1 /* NR_Nozaki-Hiyama-Kishi Reaction.png */,
+			);
+			name = N;
+			sourceTree = "<group>";
+		};
+		E92B9E191E14D90B0041D8C1 /* O */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D631E14D80B0041D8C1 /* NR_Oppenauer Oxidation.png */,
+				E92B9D641E14D80B0041D8C1 /* NR_Overman Rearrangement.png */,
+				E92B9D651E14D80B0041D8C1 /* NR_Oxy-Cope Rearrangement.png */,
+			);
+			name = O;
+			sourceTree = "<group>";
+		};
+		E92B9E1A1E14D9120041D8C1 /* P */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D691E14D8170041D8C1 /* NR_Paal–Knorr Synthesis.png */,
+				E92B9D6A1E14D8170041D8C1 /* NR_Passerini Reaction.png */,
+				E92B9D6B1E14D8170041D8C1 /* NR_Paternò–Büchi Reaction.png */,
+				E92B9D6C1E14D8170041D8C1 /* NR_Pauson-Khand Reaction.png */,
+				E92B9D6D1E14D8170041D8C1 /* NR_Payne Rearrangement.png */,
+				E92B9D6E1E14D8170041D8C1 /* NR_Pechmann Condensation.png */,
+				E92B9D6F1E14D8170041D8C1 /* NR_Perkin Reaction.png */,
+				E92B9D701E14D8170041D8C1 /* NR_Petasis Reaction.png */,
+				E92B9D711E14D8170041D8C1 /* NR_Petasis-Ferrier Rearrangement.png */,
+				E92B9D721E14D8170041D8C1 /* NR_Peterson Olefination.png */,
+				E92B9D741E14D8170041D8C1 /* NR_Pictet-Spengler Reaction.png */,
+				E92B9D751E14D8170041D8C1 /* NR_Pinacol Coupling Reaction.png */,
+				E92B9D761E14D8170041D8C1 /* NR_Pinacol Rearrangement.png */,
+				E92B9D771E14D8170041D8C1 /* NR_Pinner Reaction.png */,
+				E92B9D781E14D8170041D8C1 /* NR_Pinnick Oxidation.png */,
+				E92B9D791E14D8170041D8C1 /* NR_Prévost Reaction.png */,
+				E92B9D7A1E14D8170041D8C1 /* NR_Prilezhaev Reaction.png */,
+				E92B9D7B1E14D8170041D8C1 /* NR_Prins Reaction.png */,
+				E92B9D7C1E14D8170041D8C1 /* NR_Pschorr Reaction.png */,
+				E92B9D7D1E14D8170041D8C1 /* NR_Pummerer Rearrangement.png */,
+			);
+			name = P;
+			sourceTree = "<group>";
+		};
+		E92B9E1B1E14D91C0041D8C1 /* Q */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D931E14D81F0041D8C1 /* NR_Quasi-Favorskii Rearrangement.png */,
+			);
+			name = Q;
+			sourceTree = "<group>";
+		};
+		E92B9E1C1E14D9230041D8C1 /* R */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9D951E14D8260041D8C1 /* NR_Ramberg–Bäcklund Reaction.png */,
+				E92B9D961E14D8260041D8C1 /* NR_Reformatsky Reaction.png */,
+				E92B9D971E14D8260041D8C1 /* NR_Reimer-Tiemann Reaction.png */,
+				E92B9D981E14D8260041D8C1 /* NR_Ritter Reaction.png */,
+				E92B9D991E14D8260041D8C1 /* NR_Robinson Annulation.png */,
+				E92B9D9A1E14D8260041D8C1 /* NR_Rosenmund Reduction.png */,
+				E92B9D9B1E14D8260041D8C1 /* NR_Rosenmund-von Braun Reaction.png */,
+				E92B9D9C1E14D8260041D8C1 /* NR_Rubottom Oxidation.png */,
+			);
+			name = R;
+			sourceTree = "<group>";
+		};
+		E92B9E1D1E14D92B0041D8C1 /* S */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9DA71E14D8610041D8C1 /* NR_Saegusa Oxidation.png */,
+				E92B9DA81E14D8610041D8C1 /* NR_Sakurai Reaction.png */,
+				E92B9DA91E14D8610041D8C1 /* NR_Sandmeyer Reaction.png */,
+				E92B9DAA1E14D8610041D8C1 /* NR_Schmidt Reaction.png */,
+				E92B9DAB1E14D8610041D8C1 /* NR_Schotten-Baumann Reaction.png */,
+				E92B9DAC1E14D8610041D8C1 /* NR_Seyferth-Gilbert Homologation.png */,
+				E92B9DAD1E14D8610041D8C1 /* NR_Shapiro Reaction.png */,
+				E92B9DAE1E14D8610041D8C1 /* NR_Sharpless Dihydroxylation.png */,
+				E92B9DAF1E14D8610041D8C1 /* NR_Sharpless Epoxidation.png */,
+				E92B9DB01E14D8610041D8C1 /* NR_Sharpless Oxyamination.png */,
+				E92B9DB11E14D8610041D8C1 /* NR_Shi Epoxidation.png */,
+				E92B9DB21E14D8610041D8C1 /* NR_Simmons-Smith Reaction.png */,
+				E92B9DB31E14D8610041D8C1 /* NR_Smiles Rearrangement.png */,
+				E92B9DB41E14D8610041D8C1 /* NR_Sommelet–Hauser Rearrangement.png */,
+				E92B9DB51E14D8610041D8C1 /* NR_Sonogashira Cross-Coupling.png */,
+				E92B9DB61E14D8610041D8C1 /* NR_Staudinger Cycloaddition.png */,
+				E92B9DB71E14D8610041D8C1 /* NR_Staudinger Reaction.png */,
+				E92B9DB81E14D8610041D8C1 /* NR_Steglich Esterification.png */,
+				E92B9DB91E14D8610041D8C1 /* NR_Stetter Reaction.png */,
+				E92B9DBA1E14D8610041D8C1 /* NR_Stevens Rearrangement.png */,
+				E92B9DBB1E14D8610041D8C1 /* NR_Stille Coupling.png */,
+				E92B9DBC1E14D8610041D8C1 /* NR_Strecker Amino Acid Synthesis.png */,
+				E92B9DBD1E14D8610041D8C1 /* NR_Suzuki Cross-Coupling.png */,
+				E92B9DBE1E14D8610041D8C1 /* NR_Swern Oxidation.png */,
+			);
+			name = S;
+			sourceTree = "<group>";
+		};
+		E92B9E1E1E14D9390041D8C1 /* T */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9DD71E14D8690041D8C1 /* NR_Tebbe Olefination.png */,
+				E92B9DD81E14D8690041D8C1 /* NR_Tiffeneau–Demjanov Rearrangement.png */,
+				E92B9DD91E14D8690041D8C1 /* NR_Tishchenko Reaction.png */,
+				E92B9DDA1E14D86A0041D8C1 /* NR_Tsuji–Trost Reaction.png */,
+			);
+			name = T;
+			sourceTree = "<group>";
+		};
+		E92B9E1F1E14D9440041D8C1 /* U */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9DDF1E14D8710041D8C1 /* NR_Ugi Reaction.png */,
+				E92B9DE01E14D8710041D8C1 /* NR_Ullmann Reaction.png */,
+				E92B9DE11E14D8710041D8C1 /* NR_Upjohn Dihydroxylation.png */,
+			);
+			name = U;
+			sourceTree = "<group>";
+		};
+		E92B9E201E14D94E0041D8C1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9DE51E14D8780041D8C1 /* NR_Van Leusen Reaction.png */,
+				E92B9DE61E14D8780041D8C1 /* NR_Vilsmeier-Haack Reaction.png */,
+				E92B9DE71E14D8780041D8C1 /* NR_Vinylcyclopropane-Cyclopentene Rearrangement.png */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		E92B9E211E14D9560041D8C1 /* W */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9DEC1E14D8800041D8C1 /* NR_Wittig (1, 2) Rearrangement.png */,
+				E92B9DED1E14D8800041D8C1 /* NR_Wittig (2, 3) Rearrangement.png */,
+				E92B9DEE1E14D8800041D8C1 /* NR_Wacker-Tsuji Oxidation.png */,
+				E92B9DEF1E14D8800041D8C1 /* NR_Wagner-Meerwein Rearrangement.png */,
+				E92B9DF01E14D8800041D8C1 /* NR_Weinreb Ketone Synthesis.png */,
+				E92B9DF11E14D8800041D8C1 /* NR_Wenker Synthesis.png */,
+				E92B9DF21E14D8800041D8C1 /* NR_Williamson Ether Synthesis.png */,
+				E92B9DF31E14D8800041D8C1 /* NR_Wittig Olefination Reaction.png */,
+				E92B9DF41E14D8800041D8C1 /* NR_Wohl-Ziegler Reaction.png */,
+				E92B9DF51E14D8800041D8C1 /* NR_Wolff Rearrangement.png */,
+				E92B9DF61E14D8800041D8C1 /* NR_Wolff-Kishner Reduction.png */,
+				E92B9DF71E14D8800041D8C1 /* NR_Wolff-Kishner-Huang Reduction.png */,
+				E92B9DF81E14D8800041D8C1 /* NR_Woodward cis-Hydroxylation.png */,
+				E92B9DF91E14D8800041D8C1 /* NR_Wurtz Reaction.png */,
+				E92B9DFA1E14D8800041D8C1 /* NR_Wurtz-Fittig Reaction.png */,
+			);
+			name = W;
+			sourceTree = "<group>";
+		};
+		E92B9E221E14D9660041D8C1 /* X */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = X;
+			sourceTree = "<group>";
+		};
+		E92B9E231E14D96A0041D8C1 /* Y */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9E0B1E14D8900041D8C1 /* NR_Yamaguchi Esterification.png */,
+			);
+			name = Y;
+			sourceTree = "<group>";
+		};
+		E92B9E241E14D9710041D8C1 /* Z */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Z;
+			sourceTree = "<group>";
+		};
+		E92B9E251E14D9750041D8C1 /* ReactionSource */ = {
+			isa = PBXGroup;
+			children = (
+				E92B9E241E14D9710041D8C1 /* Z */,
+				E92B9E231E14D96A0041D8C1 /* Y */,
+				E92B9E221E14D9660041D8C1 /* X */,
+				E92B9E211E14D9560041D8C1 /* W */,
+				E92B9E201E14D94E0041D8C1 /* V */,
+				E92B9E1F1E14D9440041D8C1 /* U */,
+				E92B9E1E1E14D9390041D8C1 /* T */,
+				E92B9E1D1E14D92B0041D8C1 /* S */,
+				E92B9E1C1E14D9230041D8C1 /* R */,
+				E92B9E1B1E14D91C0041D8C1 /* Q */,
+				E92B9E1A1E14D9120041D8C1 /* P */,
+				E92B9E191E14D90B0041D8C1 /* O */,
+				E92B9E181E14D9030041D8C1 /* N */,
+				E92B9E171E14D8F80041D8C1 /* M */,
+				E92B9E161E14D8EF0041D8C1 /* L */,
+				E92B9E151E14D8E70041D8C1 /* K */,
+				E92B9E141E14D8DE0041D8C1 /* J */,
+				E92B9E131E14D8D50041D8C1 /* I */,
+				E92B9E121E14D8CA0041D8C1 /* H */,
+				E92B9E111E14D8BF0041D8C1 /* G */,
+				E92B9E101E14D8B60041D8C1 /* F */,
+				E92B9E0F1E14D8AD0041D8C1 /* E */,
+				E92B9E0E1E14D8A20041D8C1 /* D */,
+				E92B9E0D1E14D8980041D8C1 /* C */,
+				E92B9DA61E14D8490041D8C1 /* B */,
+				E92B9DA51E14D8340041D8C1 /* A */,
+			);
+			name = ReactionSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92B9C131E14770B0041D8C1 /* NameReactionMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92B9C441E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMaster" */;
+			buildPhases = (
+				E92B9C101E14770B0041D8C1 /* Sources */,
+				E92B9C111E14770B0041D8C1 /* Frameworks */,
+				E92B9C121E14770B0041D8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NameReactionMaster;
+			productName = NameReactionMaster;
+			productReference = E92B9C141E14770B0041D8C1 /* NameReactionMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E92B9C2F1E14770B0041D8C1 /* NameReactionMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92B9C471E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMasterTests" */;
+			buildPhases = (
+				E92B9C2C1E14770B0041D8C1 /* Sources */,
+				E92B9C2D1E14770B0041D8C1 /* Frameworks */,
+				E92B9C2E1E14770B0041D8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92B9C321E14770B0041D8C1 /* PBXTargetDependency */,
+			);
+			name = NameReactionMasterTests;
+			productName = NameReactionMasterTests;
+			productReference = E92B9C301E14770B0041D8C1 /* NameReactionMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E92B9C3A1E14770B0041D8C1 /* NameReactionMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92B9C4A1E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMasterUITests" */;
+			buildPhases = (
+				E92B9C371E14770B0041D8C1 /* Sources */,
+				E92B9C381E14770B0041D8C1 /* Frameworks */,
+				E92B9C391E14770B0041D8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92B9C3D1E14770B0041D8C1 /* PBXTargetDependency */,
+			);
+			name = NameReactionMasterUITests;
+			productName = NameReactionMasterUITests;
+			productReference = E92B9C3B1E14770B0041D8C1 /* NameReactionMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92B9C0C1E14770B0041D8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Qingquan Zhao";
+				TargetAttributes = {
+					E92B9C131E14770B0041D8C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					E92B9C2F1E14770B0041D8C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E92B9C131E14770B0041D8C1;
+					};
+					E92B9C3A1E14770B0041D8C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E92B9C131E14770B0041D8C1;
+					};
+				};
+			};
+			buildConfigurationList = E92B9C0F1E14770B0041D8C1 /* Build configuration list for PBXProject "NameReactionMaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E92B9C0B1E14770B0041D8C1;
+			productRefGroup = E92B9C151E14770B0041D8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92B9C131E14770B0041D8C1 /* NameReactionMaster */,
+				E92B9C2F1E14770B0041D8C1 /* NameReactionMasterTests */,
+				E92B9C3A1E14770B0041D8C1 /* NameReactionMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92B9C121E14770B0041D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92B9DD41E14D8610041D8C1 /* NR_Strecker Amino Acid Synthesis.png in Resources */,
+				E92B9DA21E14D8260041D8C1 /* NR_Rosenmund Reduction.png in Resources */,
+				E92B9C2A1E14770B0041D8C1 /* LaunchScreen.storyboard in Resources */,
+				E92B9CB71E14BD7A0041D8C1 /* NR_Clemmensen Reduction.png in Resources */,
+				E92B9D8C1E14D8170041D8C1 /* NR_Pinner Reaction.png in Resources */,
+				E92B9D611E14D7FD0041D8C1 /* NR_Newman-Kwart Rearrangement.png in Resources */,
+				E92B9DC61E14D8610041D8C1 /* NR_Sharpless Dihydroxylation.png in Resources */,
+				E92B9DFE1E14D8800041D8C1 /* NR_Wacker-Tsuji Oxidation.png in Resources */,
+				E92B9D331E14D7E10041D8C1 /* NR_Kolbe Nitrile Synthesis.png in Resources */,
+				E92B9C951E14BD540041D8C1 /* NR_Bischler-Napieralski Reaction.png in Resources */,
+				E92B9C9C1E14BD540041D8C1 /* NR_Bucherer-Bergs Reaction.png in Resources */,
+				E92B9DCF1E14D8610041D8C1 /* NR_Staudinger Reaction.png in Resources */,
+				E92B9C921E14BD540041D8C1 /* NR_Bergman Cyclization.png in Resources */,
+				E92B9D851E14D8170041D8C1 /* NR_Petasis Reaction.png in Resources */,
+				E92B9D311E14D7E10041D8C1 /* NR_Knorr Pyrazole Synthesis.png in Resources */,
+				E92B9DD21E14D8610041D8C1 /* NR_Stevens Rearrangement.png in Resources */,
+				E92B9DBF1E14D8610041D8C1 /* NR_Saegusa Oxidation.png in Resources */,
+				E92B9D0C1E14D7CB0041D8C1 /* NR_Hantzsch Pyridine Synthesis.png in Resources */,
+				E92B9C881E14BD540041D8C1 /* NR_Baker-Venkataraman Rearrangement.png in Resources */,
+				E92B9D8D1E14D8170041D8C1 /* NR_Pinnick Oxidation.png in Resources */,
+				E92B9CEA1E14D7BA0041D8C1 /* NR_Favorskii Reaction.png in Resources */,
+				E92B9D561E14D7F10041D8C1 /* NR_Mitsunobu Reaction.png in Resources */,
+				E9839EB71E1833E9005C3133 /* launchImg.png in Resources */,
+				E92B9C941E14BD540041D8C1 /* NR_Birch Reduction.png in Resources */,
+				E92B9CF21E14D7BA0041D8C1 /* NR_Fries Rearrangement.png in Resources */,
+				E92B9C5C1E14776E0041D8C1 /* NR_Arndt-Eistert Synthesis.png in Resources */,
+				E92B9CB61E14BD7A0041D8C1 /* NR_Claisen Rearrangement.png in Resources */,
+				E92B9D5E1E14D7FD0041D8C1 /* NR_Nazarov Cyclization.png in Resources */,
+				E92B9D921E14D8170041D8C1 /* NR_Pummerer Rearrangement.png in Resources */,
+				E92B9D191E14D7D30041D8C1 /* NR_Ireland-Claisen Rearrangement.png in Resources */,
+				E92B9CBA1E14BD7A0041D8C1 /* NR_Cope Rearrangement.png in Resources */,
+				E92B9D541E14D7F10041D8C1 /* NR_Michael Addition.png in Resources */,
+				E92B9CDA1E14D7B20041D8C1 /* NR_Eglinton Reaction.png in Resources */,
+				E92B9D3E1E14D7E90041D8C1 /* NR_Leuckart Thiophenol Reaction.png in Resources */,
+				E92B9D261E14D7D90041D8C1 /* NR_Julia-Kocienski Olefination.png in Resources */,
+				E92B9DA11E14D8260041D8C1 /* NR_Robinson Annulation.png in Resources */,
+				E92B9CBD1E14BD7A0041D8C1 /* NR_Corey-Fuchs Reaction.png in Resources */,
+				E92B9CBE1E14BD7A0041D8C1 /* NR_Corey-Kim Oxidation.png in Resources */,
+				E92B9C911E14BD540041D8C1 /* NR_Benzoin Condensation.png in Resources */,
+				E92B9D101E14D7CB0041D8C1 /* NR_Hiyama Coupling.png in Resources */,
+				E92B9D511E14D7F10041D8C1 /* NR_McMurry Reaction.png in Resources */,
+				E92B9DDD1E14D86A0041D8C1 /* NR_Tishchenko Reaction.png in Resources */,
+				E92B9CB41E14BD7A0041D8C1 /* NR_Ciamician-Dennstedt Rearrangement.png in Resources */,
+				E92B9CBC1E14BD7A0041D8C1 /* NR_Corey-Chaykovsky Reaction.png in Resources */,
+				E92B9E021E14D8800041D8C1 /* NR_Williamson Ether Synthesis.png in Resources */,
+				E92B9CFA1E14D7C30041D8C1 /* NR_Gabriel Synthesis.png in Resources */,
+				E92B9D911E14D8170041D8C1 /* NR_Pschorr Reaction.png in Resources */,
+				E92B9D601E14D7FD0041D8C1 /* NR_Negishi Cross-Coupling.png in Resources */,
+				E92B9DCA1E14D8610041D8C1 /* NR_Simmons-Smith Reaction.png in Resources */,
+				E92B9C8E1E14BD540041D8C1 /* NR_Baylis-Hillman Reaction.png in Resources */,
+				E92B9CDD1E14D7B20041D8C1 /* NR_Eschenmoser-Claisen Rearrangement.png in Resources */,
+				E92B9C991E14BD540041D8C1 /* NR_Bouveault-Blanc Reduction.png in Resources */,
+				E92B9CCF1E14D7A10041D8C1 /* NR_Delépine Reaction.png in Resources */,
+				E92B9D671E14D80B0041D8C1 /* NR_Overman Rearrangement.png in Resources */,
+				E92B9DFC1E14D8800041D8C1 /* NR_Wittig (1, 2) Rearrangement.png in Resources */,
+				E92B9DC01E14D8610041D8C1 /* NR_Sakurai Reaction.png in Resources */,
+				E92B9CD01E14D7A10041D8C1 /* NR_Demjanov Rearrangement.png in Resources */,
+				E92B9D681E14D80B0041D8C1 /* NR_Oxy-Cope Rearrangement.png in Resources */,
+				E92B9D551E14D7F10041D8C1 /* NR_Mislow–Evans Rearrangement.png in Resources */,
+				E9F509B31E159ED700E07F0E /* NR_Luche Reduction.png in Resources */,
+				E92B9E0A1E14D8800041D8C1 /* NR_Wurtz-Fittig Reaction.png in Resources */,
+				E92B9D811E14D8170041D8C1 /* NR_Pauson-Khand Reaction.png in Resources */,
+				E92B9D161E14D7CB0041D8C1 /* NR_Hunsdiecker Reaction.png in Resources */,
+				E92B9D891E14D8170041D8C1 /* NR_Pictet-Spengler Reaction.png in Resources */,
+				E92B9D621E14D7FD0041D8C1 /* NR_Nozaki-Hiyama-Kishi Reaction.png in Resources */,
+				E92B9CEF1E14D7BA0041D8C1 /* NR_Friedel-Crafts Acylation.png in Resources */,
+				E92B9DA01E14D8260041D8C1 /* NR_Ritter Reaction.png in Resources */,
+				E92B9C9E1E14BD540041D8C1 /* NR_Buchwald-Hartwig Amination.png in Resources */,
+				E92B9DEA1E14D8780041D8C1 /* NR_Vinylcyclopropane-Cyclopentene Rearrangement.png in Resources */,
+				E92B9D841E14D8170041D8C1 /* NR_Perkin Reaction.png in Resources */,
+				E92B9CFB1E14D7C30041D8C1 /* NR_Glaser Coupling (Hay Coupling).png in Resources */,
+				E92B9CF01E14D7BA0041D8C1 /* NR_Friedel-Crafts Alkylation.png in Resources */,
+				E92B9D8B1E14D8170041D8C1 /* NR_Pinacol Rearrangement.png in Resources */,
+				E92B9C8B1E14BD540041D8C1 /* NR_Bartoli Indole Synthesis.png in Resources */,
+				E92B9C271E14770B0041D8C1 /* Assets.xcassets in Resources */,
+				E92B9C591E14776E0041D8C1 /* NR_Aldol Reaction.png in Resources */,
+				E92B9E001E14D8800041D8C1 /* NR_Weinreb Ketone Synthesis.png in Resources */,
+				E92B9CCE1E14D7A10041D8C1 /* NR_Darzens Reaction.png in Resources */,
+				E92B9C8D1E14BD540041D8C1 /* NR_Barton–McCombie Deoxygenation.png in Resources */,
+				E92B9D111E14D7CB0041D8C1 /* NR_Hiyama–Denmark Coupling.png in Resources */,
+				E92B9C901E14BD540041D8C1 /* NR_Benzilic Acid Rearrangement.png in Resources */,
+				E92B9CCC1E14D7A10041D8C1 /* NR_Dakin Reaction.png in Resources */,
+				E92B9CB11E14BD7A0041D8C1 /* NR_Cannizzaro Reaction.png in Resources */,
+				E92B9C871E14BD540041D8C1 /* NR_Baeyer-Villiger Oxidation.png in Resources */,
+				E92B9CFE1E14D7C30041D8C1 /* NR_Grubbs Reaction.png in Resources */,
+				E92B9CFD1E14D7C30041D8C1 /* NR_Grignard Reaction.png in Resources */,
+				E92B9CEE1E14D7BA0041D8C1 /* NR_Fleming-Tamao Oxidation.png in Resources */,
+				E92B9DC41E14D8610041D8C1 /* NR_Seyferth-Gilbert Homologation.png in Resources */,
+				E92B9DDB1E14D86A0041D8C1 /* NR_Tebbe Olefination.png in Resources */,
+				E92B9C8A1E14BD540041D8C1 /* NR_Bamford-Stevens Reaction.png in Resources */,
+				E92B9D131E14D7CB0041D8C1 /* NR_Hofmann Rearrangement.png in Resources */,
+				E9EA9EBC1E16242A00BD77E3 /* Main.storyboard in Resources */,
+				E92B9DFD1E14D8800041D8C1 /* NR_Wittig (2, 3) Rearrangement.png in Resources */,
+				E92B9D0E1E14D7CB0041D8C1 /* NR_Hell-Volhard-Zelinsky Reaction.png in Resources */,
+				E92B9D661E14D80B0041D8C1 /* NR_Oppenauer Oxidation.png in Resources */,
+				E92B9DCB1E14D8610041D8C1 /* NR_Smiles Rearrangement.png in Resources */,
+				E92B9D231E14D7D90041D8C1 /* NR_Johnson-Claisen Rearrangement.png in Resources */,
+				E92B9CD11E14D7A10041D8C1 /* NR_Dess-Martin Oxidation.png in Resources */,
+				E92B9DCD1E14D8610041D8C1 /* NR_Sonogashira Cross-Coupling.png in Resources */,
+				E92B9C8F1E14BD540041D8C1 /* NR_Beckmann Reaction.png in Resources */,
+				E92B9C971E14BD540041D8C1 /* NR_Blanc Reaction.png in Resources */,
+				E92B9D8F1E14D8170041D8C1 /* NR_Prilezhaev Reaction.png in Resources */,
+				E92B9D3C1E14D7E90041D8C1 /* NR_Lawesson's Reagent.png in Resources */,
+				E92B9CB81E14BD7A0041D8C1 /* NR_Conia-Ene Reaction.png in Resources */,
+				E92B9CB91E14BD7A0041D8C1 /* NR_Cope Elimination.png in Resources */,
+				E92B9D571E14D7F10041D8C1 /* NR_Mukaiyama Aldol Addition.png in Resources */,
+				E92B9D121E14D7CB0041D8C1 /* NR_Hofmann Elimination.png in Resources */,
+				E92B9D0B1E14D7CB0041D8C1 /* NR_Haloform Reaction.png in Resources */,
+				E92B9DD61E14D8610041D8C1 /* NR_Swern Oxidation.png in Resources */,
+				E92B9D8E1E14D8170041D8C1 /* NR_Prévost Reaction.png in Resources */,
+				E92B9D1A1E14D7D30041D8C1 /* NR_Ivanov Reaction.png in Resources */,
+				E92B9E081E14D8800041D8C1 /* NR_Woodward cis-Hydroxylation.png in Resources */,
+				E92B9D3F1E14D7E90041D8C1 /* NR_Lossen Rearrangement.png in Resources */,
+				E92B9D0F1E14D7CB0041D8C1 /* NR_Henry Reaction.png in Resources */,
+				E92B9DCE1E14D8610041D8C1 /* NR_Staudinger Cycloaddition.png in Resources */,
+				E92B9E041E14D8800041D8C1 /* NR_Wohl-Ziegler Reaction.png in Resources */,
+				E92B9D9E1E14D8260041D8C1 /* NR_Reformatsky Reaction.png in Resources */,
+				E92B9D521E14D7F10041D8C1 /* NR_Meerwein–Ponndorf–Verley Reduction.png in Resources */,
+				E92B9CF11E14D7BA0041D8C1 /* NR_Friedländer Synthesis.png in Resources */,
+				E92B9C9A1E14BD540041D8C1 /* NR_Brook Rearrangement.png in Resources */,
+				E92B9D9F1E14D8260041D8C1 /* NR_Reimer-Tiemann Reaction.png in Resources */,
+				E92B9D2F1E14D7E10041D8C1 /* NR_Kabachnik-Fields Reaction.png in Resources */,
+				E92B9E031E14D8800041D8C1 /* NR_Wittig Olefination Reaction.png in Resources */,
+				E92B9DC51E14D8610041D8C1 /* NR_Shapiro Reaction.png in Resources */,
+				E92B9CF41E14D7BA0041D8C1 /* NR_Fukuyama Reduction.png in Resources */,
+				E92B9D301E14D7E10041D8C1 /* NR_Knoevenagel Condensation.png in Resources */,
+				E92B9D821E14D8170041D8C1 /* NR_Payne Rearrangement.png in Resources */,
+				E92B9C571E14776E0041D8C1 /* NR_Acetoacetic-Ester Condensation.png in Resources */,
+				E92B9DD51E14D8610041D8C1 /* NR_Suzuki Cross-Coupling.png in Resources */,
+				E92B9CB51E14BD7A0041D8C1 /* NR_Claisen Condensation.png in Resources */,
+				E92B9D9D1E14D8260041D8C1 /* NR_Ramberg–Bäcklund Reaction.png in Resources */,
+				E92B9D8A1E14D8170041D8C1 /* NR_Pinacol Coupling Reaction.png in Resources */,
+				E92B9D7E1E14D8170041D8C1 /* NR_Paal–Knorr Synthesis.png in Resources */,
+				E92B9CED1E14D7BA0041D8C1 /* NR_Fischer Indole Synthesis.png in Resources */,
+				E92B9DE91E14D8780041D8C1 /* NR_Vilsmeier-Haack Reaction.png in Resources */,
+				E92B9C981E14BD540041D8C1 /* NR_Bohlmann-Rahtz Pyridine Synthesis.png in Resources */,
+				E92B9CC21E14BD7A0041D8C1 /* NR_Curtius Rearrangement.png in Resources */,
+				E92B9D941E14D81F0041D8C1 /* NR_Quasi-Favorskii Rearrangement.png in Resources */,
+				E92B9DD11E14D8610041D8C1 /* NR_Stetter Reaction.png in Resources */,
+				E92B9CFC1E14D7C30041D8C1 /* NR_Griesbaum Coozonolysis.png in Resources */,
+				E92B9C9D1E14BD540041D8C1 /* NR_Buchner Ring Expansion.png in Resources */,
+				E92B9DA41E14D8260041D8C1 /* NR_Rubottom Oxidation.png in Resources */,
+				E92B9C5D1E14776E0041D8C1 /* NR_Azide-Alkyne Cycloaddition.png in Resources */,
+				E92B9D361E14D7E10041D8C1 /* NR_Kumada Cross-Coupling.png in Resources */,
+				E92B9C5B1E14776E0041D8C1 /* NR_Arbuzov Reaction.png in Resources */,
+				E92B9CDE1E14D7B20041D8C1 /* NR_Eschweiler-Clarke Reaction.png in Resources */,
+				E92B9E071E14D8800041D8C1 /* NR_Wolff-Kishner-Huang Reduction.png in Resources */,
+				E92B9D351E14D7E10041D8C1 /* NR_Kulinkovich Reaction.png in Resources */,
+				E92B9DC71E14D8610041D8C1 /* NR_Sharpless Epoxidation.png in Resources */,
+				E92B9D141E14D7CB0041D8C1 /* NR_Horner-Wadsworth-Emmons Olefination Reaction.png in Resources */,
+				E92B9DE21E14D8710041D8C1 /* NR_Ugi Reaction.png in Resources */,
+				E92B9C9B1E14BD540041D8C1 /* NR_Brown Hydroboration.png in Resources */,
+				E92B9C581E14776E0041D8C1 /* NR_Acyloin Condensation.png in Resources */,
+				E92B9DD01E14D8610041D8C1 /* NR_Steglich Esterification.png in Resources */,
+				E92B9D341E14D7E10041D8C1 /* NR_Kolbe-Schmitt Reaction.png in Resources */,
+				E92B9C891E14BD540041D8C1 /* NR_Balz-Schiemann Reaction.png in Resources */,
+				E92B9E011E14D8800041D8C1 /* NR_Wenker Synthesis.png in Resources */,
+				E92B9DE41E14D8710041D8C1 /* NR_Upjohn Dihydroxylation.png in Resources */,
+				E92B9DC31E14D8610041D8C1 /* NR_Schotten-Baumann Reaction.png in Resources */,
+				E92B9CCD1E14D7A10041D8C1 /* NR_Dakin-West Reaction.png in Resources */,
+				E92B9C5E1E14776E0041D8C1 /* NR_Azo Coupling.png in Resources */,
+				E92B9CDB1E14D7B20041D8C1 /* NR_Ene Reaction.png in Resources */,
+				E92B9D321E14D7E10041D8C1 /* NR_Kochi Reaction.png in Resources */,
+				E92B9D831E14D8170041D8C1 /* NR_Pechmann Condensation.png in Resources */,
+				E9F509B91E15C1A000E07F0E /* background.jpeg in Resources */,
+				E92B9DC11E14D8610041D8C1 /* NR_Sandmeyer Reaction.png in Resources */,
+				E92B9D151E14D7CB0041D8C1 /* NR_Huisgen Cycloaddition.png in Resources */,
+				E92B9D501E14D7F10041D8C1 /* NR_Mannich Reaction.png in Resources */,
+				E92B9CEC1E14D7BA0041D8C1 /* NR_Fischer Esterification.png in Resources */,
+				E92B9E051E14D8800041D8C1 /* NR_Wolff Rearrangement.png in Resources */,
+				E92B9CDC1E14D7B20041D8C1 /* NR_Enyne Metathesis.png in Resources */,
+				E92B9DA31E14D8260041D8C1 /* NR_Rosenmund-von Braun Reaction.png in Resources */,
+				E92B9E0C1E14D8900041D8C1 /* NR_Yamaguchi Esterification.png in Resources */,
+				E92B9C5A1E14776E0041D8C1 /* NR_Appel Reaction.png in Resources */,
+				E92B9D241E14D7D90041D8C1 /* NR_Jones Oxidation.png in Resources */,
+				E92B9D7F1E14D8170041D8C1 /* NR_Passerini Reaction.png in Resources */,
+				E92B9CB21E14BD7A0041D8C1 /* NR_Carrol Rearrangement.png in Resources */,
+				E92B9D0D1E14D7CB0041D8C1 /* NR_Heck Reaction.png in Resources */,
+				E92B9D801E14D8170041D8C1 /* NR_Paternò–Büchi Reaction.png in Resources */,
+				E92B9DCC1E14D8610041D8C1 /* NR_Sommelet–Hauser Rearrangement.png in Resources */,
+				E92B9CC11E14BD7A0041D8C1 /* NR_Cornforth Rearrangement.png in Resources */,
+				E92B9DDC1E14D86A0041D8C1 /* NR_Tiffeneau–Demjanov Rearrangement.png in Resources */,
+				E92B9C961E14BD540041D8C1 /* NR_Blaise Reaction.png in Resources */,
+				E92B9CF31E14D7BA0041D8C1 /* NR_Fukuyama Coupling.png in Resources */,
+				E92B9E061E14D8800041D8C1 /* NR_Wolff-Kishner Reduction.png in Resources */,
+				E92B9D221E14D7D90041D8C1 /* NR_Jocic Reaction.png in Resources */,
+				E92B9DFF1E14D8800041D8C1 /* NR_Wagner-Meerwein Rearrangement.png in Resources */,
+				E92B9C8C1E14BD540041D8C1 /* NR_Barton Decarboxylation.png in Resources */,
+				E92B9CD31E14D7A10041D8C1 /* NR_Diels-Alder Reaction.png in Resources */,
+				E92B9D531E14D7F10041D8C1 /* NR_Meyer–Schuster Rearrangement.png in Resources */,
+				E92B9CBF1E14BD7A0041D8C1 /* NR_Corey-Seebach Reaction.png in Resources */,
+				E92B9CB31E14BD7A0041D8C1 /* NR_Chichibabin Reaction.png in Resources */,
+				E92B9DDE1E14D86A0041D8C1 /* NR_Tsuji–Trost Reaction.png in Resources */,
+				E92B9C931E14BD540041D8C1 /* NR_Biginelli Reaction.png in Resources */,
+				E92B9CC01E14BD7A0041D8C1 /* NR_Corey-Winter Olefin Synthesis.png in Resources */,
+				E92B9D4D1E14D7F10041D8C1 /* NR_Meisenheimer (1, 2) Rearrangement.png in Resources */,
+				E92B9D901E14D8170041D8C1 /* NR_Prins Reaction.png in Resources */,
+				E92B9D581E14D7F10041D8C1 /* NR_Myers-Saito Cyclization.png in Resources */,
+				E92B9D4F1E14D7F10041D8C1 /* NR_Madelung Indole Synthesis.png in Resources */,
+				E92B9DC21E14D8610041D8C1 /* NR_Schmidt Reaction.png in Resources */,
+				E92B9DC81E14D8610041D8C1 /* NR_Sharpless Oxyamination.png in Resources */,
+				E92B9DD31E14D8610041D8C1 /* NR_Stille Coupling.png in Resources */,
+				E92B9CEB1E14D7BA0041D8C1 /* NR_Finkelstein Reaction.png in Resources */,
+				E92B9CD41E14D7A10041D8C1 /* NR_Dienone-Phenol Rearrangement.png in Resources */,
+				E92B9CD21E14D7A10041D8C1 /* NR_Dieckmann Condensation.png in Resources */,
+				E92B9D871E14D8170041D8C1 /* NR_Peterson Olefination.png in Resources */,
+				E92B9D251E14D7D90041D8C1 /* NR_Julia Olefination.png in Resources */,
+				E92B9DE81E14D8780041D8C1 /* NR_Van Leusen Reaction.png in Resources */,
+				E92B9D4E1E14D7F10041D8C1 /* NR_Meisenheimer (2, 3) Rearrangement.png in Resources */,
+				E92B9E2A1E14E2450041D8C1 /* NR_Lei-Griffith Oxidation.png in Resources */,
+				E92B9D211E14D7D90041D8C1 /* NR_Jacobsen Epoxidation.png in Resources */,
+				E92B9DC91E14D8610041D8C1 /* NR_Shi Epoxidation.png in Resources */,
+				E92B9D861E14D8170041D8C1 /* NR_Petasis-Ferrier Rearrangement.png in Resources */,
+				E92B9DE31E14D8710041D8C1 /* NR_Ullmann Reaction.png in Resources */,
+				E92B9CBB1E14BD7A0041D8C1 /* NR_Corey-Bakshi-Shibata (CBS) Reduction.png in Resources */,
+				E92B9D5F1E14D7FD0041D8C1 /* NR_Nef Reaction.png in Resources */,
+				E92B9E091E14D8800041D8C1 /* NR_Wurtz Reaction.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C2E1E14770B0041D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C391E14770B0041D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92B9C101E14770B0041D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92B9C681E148CD20041D8C1 /* Reaction.m in Sources */,
+				E9EA9EB71E15FF0400BD77E3 /* TestViewController.m in Sources */,
+				E92B9E2D1E14EA470041D8C1 /* NameReactionTypeVC.m in Sources */,
+				E9EA9EBA1E15FFB500BD77E3 /* RandomReactionGenerator.m in Sources */,
+				E92B9C1F1E14770B0041D8C1 /* ViewController.m in Sources */,
+				E92B9C6B1E1494570041D8C1 /* AllReactions.m in Sources */,
+				E92B9C251E14770B0041D8C1 /* NameReactionMaster.xcdatamodeld in Sources */,
+				E92B9E281E14DD5D0041D8C1 /* ReactionTypes.m in Sources */,
+				E92B9C621E147C200041D8C1 /* ReactionHandler.m in Sources */,
+				E92B9E301E14F7590041D8C1 /* ReactionOfOneTypeVC.m in Sources */,
+				E92B9C1C1E14770B0041D8C1 /* AppDelegate.m in Sources */,
+				E92B9C651E1483020041D8C1 /* NameReactionListVC.m in Sources */,
+				E92B9C6E1E14A4E70041D8C1 /* SingleReactionVC.m in Sources */,
+				E92B9C191E14770B0041D8C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C2C1E14770B0041D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92B9C351E14770B0041D8C1 /* NameReactionMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92B9C371E14770B0041D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92B9C401E14770B0041D8C1 /* NameReactionMasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92B9C321E14770B0041D8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92B9C131E14770B0041D8C1 /* NameReactionMaster */;
+			targetProxy = E92B9C311E14770B0041D8C1 /* PBXContainerItemProxy */;
+		};
+		E92B9C3D1E14770B0041D8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92B9C131E14770B0041D8C1 /* NameReactionMaster */;
+			targetProxy = E92B9C3C1E14770B0041D8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E92B9C281E14770B0041D8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92B9C291E14770B0041D8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92B9C421E14770B0041D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E92B9C431E14770B0041D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E92B9C451E14770B0041D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NameReactionMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QZhao.NameReactionMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E92B9C461E14770B0041D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NameReactionMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QZhao.NameReactionMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E92B9C481E14770B0041D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NameReactionMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NameReactionMaster.NameReactionMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NameReactionMaster.app/NameReactionMaster";
+			};
+			name = Debug;
+		};
+		E92B9C491E14770B0041D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NameReactionMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NameReactionMaster.NameReactionMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NameReactionMaster.app/NameReactionMaster";
+			};
+			name = Release;
+		};
+		E92B9C4B1E14770B0041D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NameReactionMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NameReactionMaster.NameReactionMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NameReactionMaster;
+			};
+			name = Debug;
+		};
+		E92B9C4C1E14770B0041D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NameReactionMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NameReactionMaster.NameReactionMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NameReactionMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92B9C0F1E14770B0041D8C1 /* Build configuration list for PBXProject "NameReactionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B9C421E14770B0041D8C1 /* Debug */,
+				E92B9C431E14770B0041D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92B9C441E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B9C451E14770B0041D8C1 /* Debug */,
+				E92B9C461E14770B0041D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92B9C471E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B9C481E14770B0041D8C1 /* Debug */,
+				E92B9C491E14770B0041D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92B9C4A1E14770B0041D8C1 /* Build configuration list for PBXNativeTarget "NameReactionMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B9C4B1E14770B0041D8C1 /* Debug */,
+				E92B9C4C1E14770B0041D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E92B9C231E14770B0041D8C1 /* NameReactionMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E92B9C241E14770B0041D8C1 /* NameReactionMaster.xcdatamodel */,
+			);
+			currentVersion = E92B9C241E14770B0041D8C1 /* NameReactionMaster.xcdatamodel */;
+			path = NameReactionMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E92B9C0C1E14770B0041D8C1 /* Project object */;
+}
